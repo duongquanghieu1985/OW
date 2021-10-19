@@ -1,0 +1,509 @@
+[10-19 03:52:17AM][INFO ][Runner][main][128] - ###############################################################################################
+[10-19 03:52:17AM][INFO ][Runner][main][129] - [akaAT] Execution Plan file       = null
+[10-19 03:52:17AM][INFO ][Runner][main][130] - [akaAT] Platform under test       = Chrome
+[10-19 03:52:17AM][INFO ][Runner][main][131] - [akaAT] Using chrome with profile = \
+[10-19 03:52:17AM][INFO ][Runner][main][133] - [akaAT] Remote Hub URL            = 
+[10-19 03:52:17AM][INFO ][Runner][main][134] - [akaAT] Environment file          = D:\Working\NAB\settings\env.properties
+[10-19 03:52:17AM][INFO ][Runner][main][135] - [akaAT] Report file               = null
+[10-19 03:52:17AM][INFO ][Runner][main][136] - [akaAT] Execution Plan directory  = D:\Working\NAB\plans\
+[10-19 03:52:17AM][INFO ][Runner][main][137] - [akaAT] Scenarios directory       = D:\Working\NAB\scenarios\
+[10-19 03:52:17AM][INFO ][Runner][main][138] - [akaAT] Data directory            = D:\Working\NAB\data\
+[10-19 03:52:17AM][INFO ][Runner][main][139] - [akaAT] Obj Repository directory  = D:\Working\NAB\object_repositories\
+[10-19 03:52:17AM][INFO ][Runner][main][140] - [akaAT] SMB                       = 
+[10-19 03:52:17AM][INFO ][Runner][main][141] - ###############################################################################################
+[10-19 03:52:17AM][INFO ][Runner][getClassesForPackage][178] - [akaAT] Discover package = com.fpt.ivs.akaAT.keywords becomes Path:com/fpt/ivs/akaAT/keywords
+[10-19 03:52:17AM][INFO ][Runner][getClassesForPackage][180] - [akaAT] Discover resource = file:/D:/Working/NAB/target/classes/com/fpt/ivs/akaAT/keywords
+[10-19 03:52:17AM][INFO ][Runner][getClassesForPackage][185] - [akaAT] Discover full path = file:/D:/Working/NAB/target/classes/com/fpt/ivs/akaAT/keywords
+[10-19 03:52:17AM][INFO ][Runner][getClassesForPackage][197] - [akaAT] Discover directory = D:\Working\NAB\target\classes\com\fpt\ivs\akaAT\keywords
+[10-19 03:52:17AM][INFO ][Runner][getClassesForPackage][205] - [akaAT] Discover class = com.fpt.ivs.akaAT.keywords.HomeKeywords
+[10-19 03:52:17AM][INFO ][Runner][getClassesForPackage][205] - [akaAT] Discover class = com.fpt.ivs.akaAT.keywords.SearchResultKeywords
+[10-19 03:52:17AM][INFO ][Runner][loadKeywordMapping][254] - [akaAT] Initialize class: com.fpt.ivs.akaAT.keywords.HomeKeywords - OK
+[10-19 03:52:17AM][INFO ][Runner][loadKeywordMapping][254] - [akaAT] Initialize class: com.fpt.ivs.akaAT.keywords.SearchResultKeywords - OK
+[10-19 03:52:27AM][INFO ][Runner][executePlan][332] - [akaAT] START EXECUTION PLAN...
+[10-19 03:52:27AM][INFO ][Runner][executePlan][371] - [akaAT] Executing: OW-001: Searching the weather of city
+[10-19 03:52:27AM][DEBUG][Runner][executeScenario][478] - Running keyword: searchCity
+[10-19 03:52:27AM][INFO ][WebBaseTest][initialize][71] - [akaAT] UAT_REMOTE_HUB_URL = 
+[10-19 03:52:27AM][INFO ][WebBaseTest][initialize][72] - [akaAT] UAT_BROWSER = Firefox
+[10-19 03:52:32AM][DEBUG][Data][loadDataFromExcel][35] - Load data from Excel with data name [Search]
+[10-19 03:52:32AM][INFO ][HomeKeywords][searchCity][21] - Perform search weather in [Ho Chi Minh]
+[10-19 03:52:41AM][DEBUG][ExcelReport][event][355] - Report event 'Navigate to page at https://openweathermap.org/' is 'Passed' and 'No Error'.
+[10-19 03:52:41AM][INFO ][Report][event][147] - [OW-001] Navigate to page at https://openweathermap.org/
+[10-19 03:52:41AM][INFO ][Home][getPage][41] - Get Home page ready for the test
+[10-19 03:52:41AM][DEBUG][WebBaseTestExtend][waitPageReady][1536] - Wait until Page is Ready within [15] SECONDS
+[10-19 03:52:41AM][DEBUG][BaseTest][getBy][209] - Checking locator By.xpath: /html/body/nav[@id='nav-website']
+[10-19 03:52:41AM][DEBUG][WebBaseTestExtend][waitUntilDisplay][837] - Wait until object [By.xpath: /html/body/nav[@id='nav-website']] display within [15] seconds
+[10-19 03:52:41AM][DEBUG][WebBaseTestExtend][waitUntilDisplay][859] - Time taken for [By.xpath: /html/body/nav[@id='nav-website']] to display is: [0] seconds.
+[10-19 03:52:41AM][INFO ][Home][performSearch][49] - Perform search with string
+[10-19 03:52:41AM][DEBUG][WebBaseTestExtend][waitPageReady][1536] - Wait until Page is Ready within [15] SECONDS
+[10-19 03:52:41AM][DEBUG][Home][performSearch][53] - Waiting for Search input box visible.
+[10-19 03:52:41AM][DEBUG][BaseTest][getBy][209] - Checking locator By.xpath: /html/body/nav[@id='nav-website']//div[@id='desktop-menu']//input[@placeholder='Weather in your city']
+[10-19 03:52:41AM][DEBUG][WebBaseTestExtend][waitUntilDisplay][837] - Wait until object [By.xpath: /html/body/nav[@id='nav-website']//div[@id='desktop-menu']//input[@placeholder='Weather in your city']] display within [15] seconds
+[10-19 03:52:41AM][DEBUG][WebBaseTestExtend][waitUntilDisplay][859] - Time taken for [By.xpath: /html/body/nav[@id='nav-website']//div[@id='desktop-menu']//input[@placeholder='Weather in your city']] to display is: [0] seconds.
+[10-19 03:52:41AM][DEBUG][Home][performSearch][55] - Submit value for text box.
+[10-19 03:52:41AM][DEBUG][WebBaseTestExtend][setData][1999] - Set Data
+[10-19 03:52:41AM][DEBUG][BaseTest][getBy][209] - Checking locator By.xpath: /html/body/nav[@id='nav-website']//div[@id='desktop-menu']//input[@placeholder='Weather in your city']
+[10-19 03:52:41AM][DEBUG][WebBaseTestExtend][waitPageReady][1536] - Wait until Page is Ready within [15] SECONDS
+[10-19 03:52:41AM][DEBUG][ExcelReport][event][355] - Report event 'Set text of [Ho Chi Minh] to variable [OW.Home.Search.Input]' is 'Passed' and 'No Error'.
+[10-19 03:52:41AM][INFO ][Report][event][147] - [OW-001] Set text of [Ho Chi Minh] to variable [OW.Home.Search.Input]
+[10-19 03:52:41AM][INFO ][SearchResult][getPage][24] - Get search result page ready for the test
+[10-19 03:52:41AM][DEBUG][WebBaseTestExtend][waitPageReady][1536] - Wait until Page is Ready within [15] SECONDS
+[10-19 03:52:41AM][DEBUG][BaseTest][getBy][209] - Checking locator By.xpath: //*[@id="forecast_list_ul"]
+[10-19 03:52:41AM][DEBUG][WebBaseTestExtend][waitUntilDisplay][837] - Wait until object [By.xpath: //*[@id="forecast_list_ul"]] display within [15] seconds
+[10-19 03:52:42AM][DEBUG][WebBaseTestExtend][lambda$1][849] - Object [By.xpath: //*[@id="forecast_list_ul"]] still NOT displayed
+[10-19 03:52:42AM][DEBUG][WebBaseTestExtend][lambda$1][849] - Object [By.xpath: //*[@id="forecast_list_ul"]] still NOT displayed
+[10-19 03:52:42AM][DEBUG][WebBaseTestExtend][lambda$1][849] - Object [By.xpath: //*[@id="forecast_list_ul"]] still NOT displayed
+[10-19 03:52:43AM][DEBUG][WebBaseTestExtend][waitUntilDisplay][859] - Time taken for [By.xpath: //*[@id="forecast_list_ul"]] to display is: [1] seconds.
+[10-19 03:52:43AM][DEBUG][ExcelReport][event][355] - Report event 'Perform search weather in [Ho Chi Minh]' is 'Passed' and 'No Error'.
+[10-19 03:52:43AM][INFO ][Report][event][147] - [OW-001] Perform search weather in [Ho Chi Minh]
+[10-19 03:52:43AM][DEBUG][ExcelReport][event][355] - Report event '[HOME SCREEN] Perform search with given city name.' is 'Passed' and 'No Error'.
+[10-19 03:52:43AM][INFO ][Report][event][147] - [OW-001] [HOME SCREEN] Perform search with given city name.
+[10-19 03:52:43AM][DEBUG][Runner][executeScenario][478] - Running keyword: assertSearchResult
+[10-19 03:52:43AM][DEBUG][Data][loadDataFromExcel][35] - Load data from Excel with data name [Search]
+[10-19 03:52:43AM][INFO ][SearchResultKeywords][assertSearchResult][19] - Verify [Ho Chi Minh] appeared in search result.
+[10-19 03:52:43AM][INFO ][SearchResult][assertSearchResult][32] - Verify search result contains correct city
+[10-19 03:52:43AM][DEBUG][WebBaseTestExtend][waitPageReady][1536] - Wait until Page is Ready within [15] SECONDS
+[10-19 03:52:43AM][DEBUG][ExcelReport][event][355] - Report event 'Verify [Ho Chi Minh] appeared in search result.' is 'Passed' and 'No Error'.
+[10-19 03:52:43AM][INFO ][Report][event][147] - [OW-001] Verify [Ho Chi Minh] appeared in search result.
+[10-19 03:52:43AM][DEBUG][ExcelReport][event][355] - Report event '[SEARCH RESULT SCREEN] Verifying search result contain city name.' is 'Passed' and 'No Error'.
+[10-19 03:52:43AM][INFO ][Report][event][147] - [OW-001] [SEARCH RESULT SCREEN] Verifying search result contain city name.
+[10-19 03:52:43AM][INFO ][Runner][executePlan][395] - [akaAT] Result OW-001: Searching the weather of city: PASSED
+[10-19 03:52:43AM][INFO ][Runner][executePlan][371] - [akaAT] Executing: OW-002: Searching the weather of city
+[10-19 03:52:43AM][DEBUG][Runner][executeScenario][478] - Running keyword: searchCity
+[10-19 03:52:43AM][DEBUG][Data][loadDataFromExcel][35] - Load data from Excel with data name [Search]
+[10-19 03:52:43AM][INFO ][HomeKeywords][searchCity][21] - Perform search weather in [Ha Noi]
+[10-19 03:52:45AM][DEBUG][ExcelReport][event][355] - Report event 'Navigate to page at https://openweathermap.org/' is 'Passed' and 'No Error'.
+[10-19 03:52:45AM][INFO ][Report][event][147] - [OW-002] Navigate to page at https://openweathermap.org/
+[10-19 03:52:45AM][INFO ][Home][getPage][41] - Get Home page ready for the test
+[10-19 03:52:45AM][DEBUG][WebBaseTestExtend][waitPageReady][1536] - Wait until Page is Ready within [15] SECONDS
+[10-19 03:52:45AM][DEBUG][BaseTest][getBy][209] - Checking locator By.xpath: /html/body/nav[@id='nav-website']
+[10-19 03:52:45AM][DEBUG][WebBaseTestExtend][waitUntilDisplay][837] - Wait until object [By.xpath: /html/body/nav[@id='nav-website']] display within [15] seconds
+[10-19 03:52:45AM][DEBUG][WebBaseTestExtend][waitUntilDisplay][859] - Time taken for [By.xpath: /html/body/nav[@id='nav-website']] to display is: [0] seconds.
+[10-19 03:52:45AM][INFO ][Home][performSearch][49] - Perform search with string
+[10-19 03:52:45AM][DEBUG][WebBaseTestExtend][waitPageReady][1536] - Wait until Page is Ready within [15] SECONDS
+[10-19 03:52:45AM][DEBUG][Home][performSearch][53] - Waiting for Search input box visible.
+[10-19 03:52:45AM][DEBUG][BaseTest][getBy][209] - Checking locator By.xpath: /html/body/nav[@id='nav-website']//div[@id='desktop-menu']//input[@placeholder='Weather in your city']
+[10-19 03:52:45AM][DEBUG][WebBaseTestExtend][waitUntilDisplay][837] - Wait until object [By.xpath: /html/body/nav[@id='nav-website']//div[@id='desktop-menu']//input[@placeholder='Weather in your city']] display within [15] seconds
+[10-19 03:52:45AM][DEBUG][WebBaseTestExtend][waitUntilDisplay][859] - Time taken for [By.xpath: /html/body/nav[@id='nav-website']//div[@id='desktop-menu']//input[@placeholder='Weather in your city']] to display is: [0] seconds.
+[10-19 03:52:45AM][DEBUG][Home][performSearch][55] - Submit value for text box.
+[10-19 03:52:45AM][DEBUG][WebBaseTestExtend][setData][1999] - Set Data
+[10-19 03:52:45AM][DEBUG][BaseTest][getBy][209] - Checking locator By.xpath: /html/body/nav[@id='nav-website']//div[@id='desktop-menu']//input[@placeholder='Weather in your city']
+[10-19 03:52:45AM][DEBUG][WebBaseTestExtend][waitPageReady][1536] - Wait until Page is Ready within [15] SECONDS
+[10-19 03:52:45AM][DEBUG][ExcelReport][event][355] - Report event 'Set text of [Ha Noi] to variable [OW.Home.Search.Input]' is 'Passed' and 'No Error'.
+[10-19 03:52:45AM][INFO ][Report][event][147] - [OW-002] Set text of [Ha Noi] to variable [OW.Home.Search.Input]
+[10-19 03:52:45AM][INFO ][SearchResult][getPage][24] - Get search result page ready for the test
+[10-19 03:52:45AM][DEBUG][WebBaseTestExtend][waitPageReady][1536] - Wait until Page is Ready within [15] SECONDS
+[10-19 03:52:46AM][DEBUG][BaseTest][getBy][209] - Checking locator By.xpath: //*[@id="forecast_list_ul"]
+[10-19 03:52:46AM][DEBUG][WebBaseTestExtend][waitUntilDisplay][837] - Wait until object [By.xpath: //*[@id="forecast_list_ul"]] display within [15] seconds
+[10-19 03:52:46AM][DEBUG][WebBaseTestExtend][lambda$1][849] - Object [By.xpath: //*[@id="forecast_list_ul"]] still NOT displayed
+[10-19 03:52:46AM][DEBUG][WebBaseTestExtend][lambda$1][849] - Object [By.xpath: //*[@id="forecast_list_ul"]] still NOT displayed
+[10-19 03:52:47AM][DEBUG][WebBaseTestExtend][waitUntilDisplay][859] - Time taken for [By.xpath: //*[@id="forecast_list_ul"]] to display is: [1] seconds.
+[10-19 03:52:47AM][DEBUG][ExcelReport][event][355] - Report event 'Perform search weather in [Ha Noi]' is 'Passed' and 'No Error'.
+[10-19 03:52:47AM][INFO ][Report][event][147] - [OW-002] Perform search weather in [Ha Noi]
+[10-19 03:52:47AM][DEBUG][ExcelReport][event][355] - Report event '[HOME SCREEN] Perform search with given city name.' is 'Passed' and 'No Error'.
+[10-19 03:52:47AM][INFO ][Report][event][147] - [OW-002] [HOME SCREEN] Perform search with given city name.
+[10-19 03:52:47AM][DEBUG][Runner][executeScenario][478] - Running keyword: assertSearchResult
+[10-19 03:52:47AM][DEBUG][Data][loadDataFromExcel][35] - Load data from Excel with data name [Search]
+[10-19 03:52:47AM][INFO ][SearchResultKeywords][assertSearchResult][19] - Verify [Ha Noi] appeared in search result.
+[10-19 03:52:47AM][INFO ][SearchResult][assertSearchResult][32] - Verify search result contains correct city
+[10-19 03:52:47AM][DEBUG][WebBaseTestExtend][waitPageReady][1536] - Wait until Page is Ready within [15] SECONDS
+[10-19 03:52:48AM][DEBUG][ExcelReport][event][355] - Report event 'Verify [Ha Noi] appeared in search result.' is 'Passed' and 'No Error'.
+[10-19 03:52:48AM][INFO ][Report][event][147] - [OW-002] Verify [Ha Noi] appeared in search result.
+[10-19 03:52:48AM][DEBUG][ExcelReport][event][355] - Report event '[SEARCH RESULT SCREEN] Verifying search result contain city name.' is 'Passed' and 'No Error'.
+[10-19 03:52:48AM][INFO ][Report][event][147] - [OW-002] [SEARCH RESULT SCREEN] Verifying search result contain city name.
+[10-19 03:52:48AM][INFO ][Runner][executePlan][395] - [akaAT] Result OW-002: Searching the weather of city: PASSED
+[10-19 03:52:48AM][INFO ][Runner][executePlan][371] - [akaAT] Executing: OW-003: Searching the weather of city
+[10-19 03:52:48AM][DEBUG][Runner][executeScenario][478] - Running keyword: searchCity
+[10-19 03:52:48AM][DEBUG][Data][loadDataFromExcel][35] - Load data from Excel with data name [Search]
+[10-19 03:52:48AM][INFO ][HomeKeywords][searchCity][21] - Perform search weather in [Bac Lieu]
+[10-19 03:52:50AM][DEBUG][ExcelReport][event][355] - Report event 'Navigate to page at https://openweathermap.org/' is 'Passed' and 'No Error'.
+[10-19 03:52:50AM][INFO ][Report][event][147] - [OW-003] Navigate to page at https://openweathermap.org/
+[10-19 03:52:50AM][INFO ][Home][getPage][41] - Get Home page ready for the test
+[10-19 03:52:50AM][DEBUG][WebBaseTestExtend][waitPageReady][1536] - Wait until Page is Ready within [15] SECONDS
+[10-19 03:52:50AM][DEBUG][BaseTest][getBy][209] - Checking locator By.xpath: /html/body/nav[@id='nav-website']
+[10-19 03:52:50AM][DEBUG][WebBaseTestExtend][waitUntilDisplay][837] - Wait until object [By.xpath: /html/body/nav[@id='nav-website']] display within [15] seconds
+[10-19 03:52:50AM][DEBUG][WebBaseTestExtend][waitUntilDisplay][859] - Time taken for [By.xpath: /html/body/nav[@id='nav-website']] to display is: [0] seconds.
+[10-19 03:52:50AM][INFO ][Home][performSearch][49] - Perform search with string
+[10-19 03:52:50AM][DEBUG][WebBaseTestExtend][waitPageReady][1536] - Wait until Page is Ready within [15] SECONDS
+[10-19 03:52:50AM][DEBUG][Home][performSearch][53] - Waiting for Search input box visible.
+[10-19 03:52:50AM][DEBUG][BaseTest][getBy][209] - Checking locator By.xpath: /html/body/nav[@id='nav-website']//div[@id='desktop-menu']//input[@placeholder='Weather in your city']
+[10-19 03:52:50AM][DEBUG][WebBaseTestExtend][waitUntilDisplay][837] - Wait until object [By.xpath: /html/body/nav[@id='nav-website']//div[@id='desktop-menu']//input[@placeholder='Weather in your city']] display within [15] seconds
+[10-19 03:52:50AM][DEBUG][WebBaseTestExtend][waitUntilDisplay][859] - Time taken for [By.xpath: /html/body/nav[@id='nav-website']//div[@id='desktop-menu']//input[@placeholder='Weather in your city']] to display is: [0] seconds.
+[10-19 03:52:50AM][DEBUG][Home][performSearch][55] - Submit value for text box.
+[10-19 03:52:50AM][DEBUG][WebBaseTestExtend][setData][1999] - Set Data
+[10-19 03:52:50AM][DEBUG][BaseTest][getBy][209] - Checking locator By.xpath: /html/body/nav[@id='nav-website']//div[@id='desktop-menu']//input[@placeholder='Weather in your city']
+[10-19 03:52:50AM][DEBUG][WebBaseTestExtend][waitPageReady][1536] - Wait until Page is Ready within [15] SECONDS
+[10-19 03:52:50AM][DEBUG][ExcelReport][event][355] - Report event 'Set text of [Bac Lieu] to variable [OW.Home.Search.Input]' is 'Passed' and 'No Error'.
+[10-19 03:52:50AM][INFO ][Report][event][147] - [OW-003] Set text of [Bac Lieu] to variable [OW.Home.Search.Input]
+[10-19 03:52:50AM][INFO ][SearchResult][getPage][24] - Get search result page ready for the test
+[10-19 03:52:50AM][DEBUG][WebBaseTestExtend][waitPageReady][1536] - Wait until Page is Ready within [15] SECONDS
+[10-19 03:52:50AM][DEBUG][BaseTest][getBy][209] - Checking locator By.xpath: //*[@id="forecast_list_ul"]
+[10-19 03:52:50AM][DEBUG][WebBaseTestExtend][waitUntilDisplay][837] - Wait until object [By.xpath: //*[@id="forecast_list_ul"]] display within [15] seconds
+[10-19 03:52:51AM][DEBUG][WebBaseTestExtend][lambda$1][849] - Object [By.xpath: //*[@id="forecast_list_ul"]] still NOT displayed
+[10-19 03:52:51AM][DEBUG][WebBaseTestExtend][lambda$1][849] - Object [By.xpath: //*[@id="forecast_list_ul"]] still NOT displayed
+[10-19 03:52:51AM][DEBUG][WebBaseTestExtend][waitUntilDisplay][859] - Time taken for [By.xpath: //*[@id="forecast_list_ul"]] to display is: [1] seconds.
+[10-19 03:52:51AM][DEBUG][ExcelReport][event][355] - Report event 'Perform search weather in [Bac Lieu]' is 'Passed' and 'No Error'.
+[10-19 03:52:51AM][INFO ][Report][event][147] - [OW-003] Perform search weather in [Bac Lieu]
+[10-19 03:52:51AM][DEBUG][ExcelReport][event][355] - Report event '[HOME SCREEN] Perform search with given city name.' is 'Passed' and 'No Error'.
+[10-19 03:52:51AM][INFO ][Report][event][147] - [OW-003] [HOME SCREEN] Perform search with given city name.
+[10-19 03:52:51AM][DEBUG][Runner][executeScenario][478] - Running keyword: assertSearchResult
+[10-19 03:52:51AM][DEBUG][Data][loadDataFromExcel][35] - Load data from Excel with data name [Search]
+[10-19 03:52:51AM][INFO ][SearchResultKeywords][assertSearchResult][19] - Verify [Bac Lieu] appeared in search result.
+[10-19 03:52:51AM][INFO ][SearchResult][assertSearchResult][32] - Verify search result contains correct city
+[10-19 03:52:51AM][DEBUG][WebBaseTestExtend][waitPageReady][1536] - Wait until Page is Ready within [15] SECONDS
+[10-19 03:52:52AM][DEBUG][ExcelReport][event][355] - Report event 'Verify [Bac Lieu] appeared in search result.' is 'Passed' and 'No Error'.
+[10-19 03:52:52AM][INFO ][Report][event][147] - [OW-003] Verify [Bac Lieu] appeared in search result.
+[10-19 03:52:52AM][DEBUG][ExcelReport][event][355] - Report event '[SEARCH RESULT SCREEN] Verifying search result contain city name.' is 'Passed' and 'No Error'.
+[10-19 03:52:52AM][INFO ][Report][event][147] - [OW-003] [SEARCH RESULT SCREEN] Verifying search result contain city name.
+[10-19 03:52:52AM][INFO ][Runner][executePlan][395] - [akaAT] Result OW-003: Searching the weather of city: PASSED
+[10-19 03:52:52AM][INFO ][Runner][executePlan][371] - [akaAT] Executing: OW-004: Searching the weather of city
+[10-19 03:52:52AM][DEBUG][Runner][executeScenario][478] - Running keyword: searchCity
+[10-19 03:52:52AM][DEBUG][Data][loadDataFromExcel][35] - Load data from Excel with data name [Search]
+[10-19 03:52:52AM][INFO ][HomeKeywords][searchCity][21] - Perform search weather in [New York]
+[10-19 03:52:54AM][DEBUG][ExcelReport][event][355] - Report event 'Navigate to page at https://openweathermap.org/' is 'Passed' and 'No Error'.
+[10-19 03:52:54AM][INFO ][Report][event][147] - [OW-004] Navigate to page at https://openweathermap.org/
+[10-19 03:52:54AM][INFO ][Home][getPage][41] - Get Home page ready for the test
+[10-19 03:52:54AM][DEBUG][WebBaseTestExtend][waitPageReady][1536] - Wait until Page is Ready within [15] SECONDS
+[10-19 03:52:54AM][DEBUG][BaseTest][getBy][209] - Checking locator By.xpath: /html/body/nav[@id='nav-website']
+[10-19 03:52:54AM][DEBUG][WebBaseTestExtend][waitUntilDisplay][837] - Wait until object [By.xpath: /html/body/nav[@id='nav-website']] display within [15] seconds
+[10-19 03:52:54AM][DEBUG][WebBaseTestExtend][waitUntilDisplay][859] - Time taken for [By.xpath: /html/body/nav[@id='nav-website']] to display is: [0] seconds.
+[10-19 03:52:54AM][INFO ][Home][performSearch][49] - Perform search with string
+[10-19 03:52:54AM][DEBUG][WebBaseTestExtend][waitPageReady][1536] - Wait until Page is Ready within [15] SECONDS
+[10-19 03:52:54AM][DEBUG][Home][performSearch][53] - Waiting for Search input box visible.
+[10-19 03:52:54AM][DEBUG][BaseTest][getBy][209] - Checking locator By.xpath: /html/body/nav[@id='nav-website']//div[@id='desktop-menu']//input[@placeholder='Weather in your city']
+[10-19 03:52:54AM][DEBUG][WebBaseTestExtend][waitUntilDisplay][837] - Wait until object [By.xpath: /html/body/nav[@id='nav-website']//div[@id='desktop-menu']//input[@placeholder='Weather in your city']] display within [15] seconds
+[10-19 03:52:54AM][DEBUG][WebBaseTestExtend][waitUntilDisplay][859] - Time taken for [By.xpath: /html/body/nav[@id='nav-website']//div[@id='desktop-menu']//input[@placeholder='Weather in your city']] to display is: [0] seconds.
+[10-19 03:52:54AM][DEBUG][Home][performSearch][55] - Submit value for text box.
+[10-19 03:52:54AM][DEBUG][WebBaseTestExtend][setData][1999] - Set Data
+[10-19 03:52:54AM][DEBUG][BaseTest][getBy][209] - Checking locator By.xpath: /html/body/nav[@id='nav-website']//div[@id='desktop-menu']//input[@placeholder='Weather in your city']
+[10-19 03:52:54AM][DEBUG][WebBaseTestExtend][waitPageReady][1536] - Wait until Page is Ready within [15] SECONDS
+[10-19 03:52:54AM][DEBUG][ExcelReport][event][355] - Report event 'Set text of [New York] to variable [OW.Home.Search.Input]' is 'Passed' and 'No Error'.
+[10-19 03:52:54AM][INFO ][Report][event][147] - [OW-004] Set text of [New York] to variable [OW.Home.Search.Input]
+[10-19 03:52:54AM][INFO ][SearchResult][getPage][24] - Get search result page ready for the test
+[10-19 03:52:54AM][DEBUG][WebBaseTestExtend][waitPageReady][1536] - Wait until Page is Ready within [15] SECONDS
+[10-19 03:52:54AM][DEBUG][BaseTest][getBy][209] - Checking locator By.xpath: //*[@id="forecast_list_ul"]
+[10-19 03:52:54AM][DEBUG][WebBaseTestExtend][waitUntilDisplay][837] - Wait until object [By.xpath: //*[@id="forecast_list_ul"]] display within [15] seconds
+[10-19 03:52:55AM][DEBUG][WebBaseTestExtend][lambda$1][849] - Object [By.xpath: //*[@id="forecast_list_ul"]] still NOT displayed
+[10-19 03:52:55AM][DEBUG][WebBaseTestExtend][lambda$1][849] - Object [By.xpath: //*[@id="forecast_list_ul"]] still NOT displayed
+[10-19 03:52:55AM][DEBUG][WebBaseTestExtend][waitUntilDisplay][859] - Time taken for [By.xpath: //*[@id="forecast_list_ul"]] to display is: [1] seconds.
+[10-19 03:52:56AM][DEBUG][ExcelReport][event][355] - Report event 'Perform search weather in [New York]' is 'Passed' and 'No Error'.
+[10-19 03:52:56AM][INFO ][Report][event][147] - [OW-004] Perform search weather in [New York]
+[10-19 03:52:56AM][DEBUG][ExcelReport][event][355] - Report event '[HOME SCREEN] Perform search with given city name.' is 'Passed' and 'No Error'.
+[10-19 03:52:56AM][INFO ][Report][event][147] - [OW-004] [HOME SCREEN] Perform search with given city name.
+[10-19 03:52:56AM][DEBUG][Runner][executeScenario][478] - Running keyword: assertSearchResult
+[10-19 03:52:56AM][DEBUG][Data][loadDataFromExcel][35] - Load data from Excel with data name [Search]
+[10-19 03:52:56AM][INFO ][SearchResultKeywords][assertSearchResult][19] - Verify [New York] appeared in search result.
+[10-19 03:52:56AM][INFO ][SearchResult][assertSearchResult][32] - Verify search result contains correct city
+[10-19 03:52:56AM][DEBUG][WebBaseTestExtend][waitPageReady][1536] - Wait until Page is Ready within [15] SECONDS
+[10-19 03:52:57AM][DEBUG][ExcelReport][event][355] - Report event 'Verify [New York] appeared in search result.' is 'Passed' and 'No Error'.
+[10-19 03:52:57AM][INFO ][Report][event][147] - [OW-004] Verify [New York] appeared in search result.
+[10-19 03:52:57AM][DEBUG][ExcelReport][event][355] - Report event '[SEARCH RESULT SCREEN] Verifying search result contain city name.' is 'Passed' and 'No Error'.
+[10-19 03:52:57AM][INFO ][Report][event][147] - [OW-004] [SEARCH RESULT SCREEN] Verifying search result contain city name.
+[10-19 03:52:57AM][INFO ][Runner][executePlan][395] - [akaAT] Result OW-004: Searching the weather of city: PASSED
+[10-19 03:52:57AM][INFO ][Runner][executePlan][371] - [akaAT] Executing: OW-005: Searching the weather of city
+[10-19 03:52:57AM][DEBUG][Runner][executeScenario][478] - Running keyword: searchCity
+[10-19 03:52:57AM][DEBUG][Data][loadDataFromExcel][35] - Load data from Excel with data name [Search]
+[10-19 03:52:57AM][INFO ][HomeKeywords][searchCity][21] - Perform search weather in [London]
+[10-19 03:52:58AM][DEBUG][ExcelReport][event][355] - Report event 'Navigate to page at https://openweathermap.org/' is 'Passed' and 'No Error'.
+[10-19 03:52:58AM][INFO ][Report][event][147] - [OW-005] Navigate to page at https://openweathermap.org/
+[10-19 03:52:58AM][INFO ][Home][getPage][41] - Get Home page ready for the test
+[10-19 03:52:58AM][DEBUG][WebBaseTestExtend][waitPageReady][1536] - Wait until Page is Ready within [15] SECONDS
+[10-19 03:52:58AM][DEBUG][BaseTest][getBy][209] - Checking locator By.xpath: /html/body/nav[@id='nav-website']
+[10-19 03:52:58AM][DEBUG][WebBaseTestExtend][waitUntilDisplay][837] - Wait until object [By.xpath: /html/body/nav[@id='nav-website']] display within [15] seconds
+[10-19 03:52:58AM][DEBUG][WebBaseTestExtend][waitUntilDisplay][859] - Time taken for [By.xpath: /html/body/nav[@id='nav-website']] to display is: [0] seconds.
+[10-19 03:52:58AM][INFO ][Home][performSearch][49] - Perform search with string
+[10-19 03:52:58AM][DEBUG][WebBaseTestExtend][waitPageReady][1536] - Wait until Page is Ready within [15] SECONDS
+[10-19 03:52:58AM][DEBUG][Home][performSearch][53] - Waiting for Search input box visible.
+[10-19 03:52:58AM][DEBUG][BaseTest][getBy][209] - Checking locator By.xpath: /html/body/nav[@id='nav-website']//div[@id='desktop-menu']//input[@placeholder='Weather in your city']
+[10-19 03:52:58AM][DEBUG][WebBaseTestExtend][waitUntilDisplay][837] - Wait until object [By.xpath: /html/body/nav[@id='nav-website']//div[@id='desktop-menu']//input[@placeholder='Weather in your city']] display within [15] seconds
+[10-19 03:52:58AM][DEBUG][WebBaseTestExtend][waitUntilDisplay][859] - Time taken for [By.xpath: /html/body/nav[@id='nav-website']//div[@id='desktop-menu']//input[@placeholder='Weather in your city']] to display is: [0] seconds.
+[10-19 03:52:58AM][DEBUG][Home][performSearch][55] - Submit value for text box.
+[10-19 03:52:58AM][DEBUG][WebBaseTestExtend][setData][1999] - Set Data
+[10-19 03:52:58AM][DEBUG][BaseTest][getBy][209] - Checking locator By.xpath: /html/body/nav[@id='nav-website']//div[@id='desktop-menu']//input[@placeholder='Weather in your city']
+[10-19 03:52:58AM][DEBUG][WebBaseTestExtend][waitPageReady][1536] - Wait until Page is Ready within [15] SECONDS
+[10-19 03:52:59AM][DEBUG][ExcelReport][event][355] - Report event 'Set text of [London] to variable [OW.Home.Search.Input]' is 'Passed' and 'No Error'.
+[10-19 03:52:59AM][INFO ][Report][event][147] - [OW-005] Set text of [London] to variable [OW.Home.Search.Input]
+[10-19 03:52:59AM][INFO ][SearchResult][getPage][24] - Get search result page ready for the test
+[10-19 03:52:59AM][DEBUG][WebBaseTestExtend][waitPageReady][1536] - Wait until Page is Ready within [15] SECONDS
+[10-19 03:52:59AM][DEBUG][BaseTest][getBy][209] - Checking locator By.xpath: //*[@id="forecast_list_ul"]
+[10-19 03:52:59AM][DEBUG][WebBaseTestExtend][waitUntilDisplay][837] - Wait until object [By.xpath: //*[@id="forecast_list_ul"]] display within [15] seconds
+[10-19 03:52:59AM][DEBUG][WebBaseTestExtend][lambda$1][849] - Object [By.xpath: //*[@id="forecast_list_ul"]] still NOT displayed
+[10-19 03:52:59AM][DEBUG][WebBaseTestExtend][lambda$1][849] - Object [By.xpath: //*[@id="forecast_list_ul"]] still NOT displayed
+[10-19 03:53:00AM][DEBUG][WebBaseTestExtend][waitUntilDisplay][859] - Time taken for [By.xpath: //*[@id="forecast_list_ul"]] to display is: [0] seconds.
+[10-19 03:53:00AM][DEBUG][ExcelReport][event][355] - Report event 'Perform search weather in [London]' is 'Passed' and 'No Error'.
+[10-19 03:53:00AM][INFO ][Report][event][147] - [OW-005] Perform search weather in [London]
+[10-19 03:53:00AM][DEBUG][ExcelReport][event][355] - Report event '[HOME SCREEN] Perform search with given city name.' is 'Passed' and 'No Error'.
+[10-19 03:53:00AM][INFO ][Report][event][147] - [OW-005] [HOME SCREEN] Perform search with given city name.
+[10-19 03:53:00AM][DEBUG][Runner][executeScenario][478] - Running keyword: assertSearchResult
+[10-19 03:53:00AM][DEBUG][Data][loadDataFromExcel][35] - Load data from Excel with data name [Search]
+[10-19 03:53:00AM][INFO ][SearchResultKeywords][assertSearchResult][19] - Verify [London] appeared in search result.
+[10-19 03:53:00AM][INFO ][SearchResult][assertSearchResult][32] - Verify search result contains correct city
+[10-19 03:53:00AM][DEBUG][WebBaseTestExtend][waitPageReady][1536] - Wait until Page is Ready within [15] SECONDS
+[10-19 03:53:01AM][DEBUG][ExcelReport][event][355] - Report event 'Verify [London] appeared in search result.' is 'Passed' and 'No Error'.
+[10-19 03:53:01AM][INFO ][Report][event][147] - [OW-005] Verify [London] appeared in search result.
+[10-19 03:53:01AM][DEBUG][ExcelReport][event][355] - Report event '[SEARCH RESULT SCREEN] Verifying search result contain city name.' is 'Passed' and 'No Error'.
+[10-19 03:53:01AM][INFO ][Report][event][147] - [OW-005] [SEARCH RESULT SCREEN] Verifying search result contain city name.
+[10-19 03:53:01AM][INFO ][Runner][executePlan][395] - [akaAT] Result OW-005: Searching the weather of city: PASSED
+[10-19 03:53:01AM][INFO ][Runner][executePlan][371] - [akaAT] Executing: OW-006: Searching the weather of city
+[10-19 03:53:01AM][DEBUG][Runner][executeScenario][478] - Running keyword: searchCity
+[10-19 03:53:01AM][DEBUG][Data][loadDataFromExcel][35] - Load data from Excel with data name [Search]
+[10-19 03:53:01AM][INFO ][HomeKeywords][searchCity][21] - Perform search weather in [Pekwachnamaykoskwaskwaypinwanik]
+[10-19 03:53:03AM][DEBUG][ExcelReport][event][355] - Report event 'Navigate to page at https://openweathermap.org/' is 'Passed' and 'No Error'.
+[10-19 03:53:03AM][INFO ][Report][event][147] - [OW-006] Navigate to page at https://openweathermap.org/
+[10-19 03:53:03AM][INFO ][Home][getPage][41] - Get Home page ready for the test
+[10-19 03:53:03AM][DEBUG][WebBaseTestExtend][waitPageReady][1536] - Wait until Page is Ready within [15] SECONDS
+[10-19 03:53:03AM][DEBUG][BaseTest][getBy][209] - Checking locator By.xpath: /html/body/nav[@id='nav-website']
+[10-19 03:53:03AM][DEBUG][WebBaseTestExtend][waitUntilDisplay][837] - Wait until object [By.xpath: /html/body/nav[@id='nav-website']] display within [15] seconds
+[10-19 03:53:03AM][DEBUG][WebBaseTestExtend][waitUntilDisplay][859] - Time taken for [By.xpath: /html/body/nav[@id='nav-website']] to display is: [0] seconds.
+[10-19 03:53:03AM][INFO ][Home][performSearch][49] - Perform search with string
+[10-19 03:53:03AM][DEBUG][WebBaseTestExtend][waitPageReady][1536] - Wait until Page is Ready within [15] SECONDS
+[10-19 03:53:03AM][DEBUG][Home][performSearch][53] - Waiting for Search input box visible.
+[10-19 03:53:03AM][DEBUG][BaseTest][getBy][209] - Checking locator By.xpath: /html/body/nav[@id='nav-website']//div[@id='desktop-menu']//input[@placeholder='Weather in your city']
+[10-19 03:53:03AM][DEBUG][WebBaseTestExtend][waitUntilDisplay][837] - Wait until object [By.xpath: /html/body/nav[@id='nav-website']//div[@id='desktop-menu']//input[@placeholder='Weather in your city']] display within [15] seconds
+[10-19 03:53:03AM][DEBUG][WebBaseTestExtend][waitUntilDisplay][859] - Time taken for [By.xpath: /html/body/nav[@id='nav-website']//div[@id='desktop-menu']//input[@placeholder='Weather in your city']] to display is: [0] seconds.
+[10-19 03:53:03AM][DEBUG][Home][performSearch][55] - Submit value for text box.
+[10-19 03:53:03AM][DEBUG][WebBaseTestExtend][setData][1999] - Set Data
+[10-19 03:53:03AM][DEBUG][BaseTest][getBy][209] - Checking locator By.xpath: /html/body/nav[@id='nav-website']//div[@id='desktop-menu']//input[@placeholder='Weather in your city']
+[10-19 03:53:03AM][DEBUG][WebBaseTestExtend][waitPageReady][1536] - Wait until Page is Ready within [15] SECONDS
+[10-19 03:53:03AM][DEBUG][ExcelReport][event][355] - Report event 'Set text of [Pekwachnamaykoskwaskwaypinwanik] to variable [OW.Home.Search.Input]' is 'Passed' and 'No Error'.
+[10-19 03:53:03AM][INFO ][Report][event][147] - [OW-006] Set text of [Pekwachnamaykoskwaskwaypinwanik] to variable [OW.Home.Search.Input]
+[10-19 03:53:03AM][INFO ][SearchResult][getPage][24] - Get search result page ready for the test
+[10-19 03:53:03AM][DEBUG][WebBaseTestExtend][waitPageReady][1536] - Wait until Page is Ready within [15] SECONDS
+[10-19 03:53:03AM][DEBUG][BaseTest][getBy][209] - Checking locator By.xpath: //*[@id="forecast_list_ul"]
+[10-19 03:53:03AM][DEBUG][WebBaseTestExtend][waitUntilDisplay][837] - Wait until object [By.xpath: //*[@id="forecast_list_ul"]] display within [15] seconds
+[10-19 03:53:05AM][DEBUG][WebBaseTestExtend][lambda$1][849] - Object [By.xpath: //*[@id="forecast_list_ul"]] still NOT displayed
+[10-19 03:53:05AM][DEBUG][WebBaseTestExtend][lambda$1][849] - Object [By.xpath: //*[@id="forecast_list_ul"]] still NOT displayed
+[10-19 03:53:06AM][DEBUG][WebBaseTestExtend][waitUntilDisplay][859] - Time taken for [By.xpath: //*[@id="forecast_list_ul"]] to display is: [2] seconds.
+[10-19 03:53:06AM][DEBUG][ExcelReport][event][355] - Report event 'Perform search weather in [Pekwachnamaykoskwaskwaypinwanik]' is 'Passed' and 'No Error'.
+[10-19 03:53:06AM][INFO ][Report][event][147] - [OW-006] Perform search weather in [Pekwachnamaykoskwaskwaypinwanik]
+[10-19 03:53:06AM][DEBUG][ExcelReport][event][355] - Report event '[HOME SCREEN] Perform search with given city name.' is 'Passed' and 'No Error'.
+[10-19 03:53:06AM][INFO ][Report][event][147] - [OW-006] [HOME SCREEN] Perform search with given city name.
+[10-19 03:53:06AM][DEBUG][Runner][executeScenario][478] - Running keyword: assertSearchResult
+[10-19 03:53:06AM][DEBUG][Data][loadDataFromExcel][35] - Load data from Excel with data name [Search]
+[10-19 03:53:06AM][INFO ][SearchResultKeywords][assertSearchResult][19] - Verify [Pekwachnamaykoskwaskwaypinwanik] appeared in search result.
+[10-19 03:53:06AM][INFO ][SearchResult][assertSearchResult][32] - Verify search result contains correct city
+[10-19 03:53:06AM][DEBUG][WebBaseTestExtend][waitPageReady][1536] - Wait until Page is Ready within [15] SECONDS
+[10-19 03:53:21AM][ERROR][SeleniumBaseTest][getElement][607] - [akaAT] No such element [By.xpath: //*[@id="forecast_list_ul"]//a[contains(.,'Pekwachnamaykoskwaskwaypinwanik')]]
+[10-19 03:53:21AM][DEBUG][ExcelReport][event][355] - Report event 'Verify [Pekwachnamaykoskwaskwaypinwanik] appeared in search result.' is 'Failed' and 'Unable to find [Pekwachnamaykoskwaskwaypinwanik] in Search Result'.
+[10-19 03:53:21AM][ERROR][Report][event][153] - [OW-006] Verify [Pekwachnamaykoskwaskwaypinwanik] appeared in search result. => Unable to find [Pekwachnamaykoskwaskwaypinwanik] in Search Result
+[10-19 03:53:21AM][DEBUG][ExcelReport][event][355] - Report event '[SEARCH RESULT SCREEN] Verifying search result contain city name.' is 'Failed' and 'Unable to find [Pekwachnamaykoskwaskwaypinwanik] in Search Result
+'.
+[10-19 03:53:21AM][ERROR][Report][event][153] - [OW-006] [SEARCH RESULT SCREEN] Verifying search result contain city name. => Unable to find [Pekwachnamaykoskwaskwaypinwanik] in Search Result
+
+[10-19 03:53:21AM][INFO ][Runner][executePlan][389] - [akaAT] Result OW-006: Searching the weather of city: FAILED
+[10-19 03:53:21AM][INFO ][Runner][executePlan][371] - [akaAT] Executing: OW-007: Searching the weather of city
+[10-19 03:53:21AM][DEBUG][Runner][executeScenario][478] - Running keyword: searchCity
+[10-19 03:53:21AM][DEBUG][Data][loadDataFromExcel][35] - Load data from Excel with data name [Search]
+[10-19 03:53:21AM][INFO ][HomeKeywords][searchCity][21] - Perform search weather in [Taumatawhakatangihangakoauauotamateaturipukakapikimaungahoronukupokaiwhenuakitanatahu]
+[10-19 03:53:23AM][DEBUG][ExcelReport][event][355] - Report event 'Navigate to page at https://openweathermap.org/' is 'Passed' and 'No Error'.
+[10-19 03:53:23AM][INFO ][Report][event][147] - [OW-007] Navigate to page at https://openweathermap.org/
+[10-19 03:53:23AM][INFO ][Home][getPage][41] - Get Home page ready for the test
+[10-19 03:53:23AM][DEBUG][WebBaseTestExtend][waitPageReady][1536] - Wait until Page is Ready within [15] SECONDS
+[10-19 03:53:23AM][DEBUG][BaseTest][getBy][209] - Checking locator By.xpath: /html/body/nav[@id='nav-website']
+[10-19 03:53:23AM][DEBUG][WebBaseTestExtend][waitUntilDisplay][837] - Wait until object [By.xpath: /html/body/nav[@id='nav-website']] display within [15] seconds
+[10-19 03:53:23AM][DEBUG][WebBaseTestExtend][waitUntilDisplay][859] - Time taken for [By.xpath: /html/body/nav[@id='nav-website']] to display is: [0] seconds.
+[10-19 03:53:23AM][INFO ][Home][performSearch][49] - Perform search with string
+[10-19 03:53:23AM][DEBUG][WebBaseTestExtend][waitPageReady][1536] - Wait until Page is Ready within [15] SECONDS
+[10-19 03:53:23AM][DEBUG][Home][performSearch][53] - Waiting for Search input box visible.
+[10-19 03:53:23AM][DEBUG][BaseTest][getBy][209] - Checking locator By.xpath: /html/body/nav[@id='nav-website']//div[@id='desktop-menu']//input[@placeholder='Weather in your city']
+[10-19 03:53:23AM][DEBUG][WebBaseTestExtend][waitUntilDisplay][837] - Wait until object [By.xpath: /html/body/nav[@id='nav-website']//div[@id='desktop-menu']//input[@placeholder='Weather in your city']] display within [15] seconds
+[10-19 03:53:23AM][DEBUG][WebBaseTestExtend][waitUntilDisplay][859] - Time taken for [By.xpath: /html/body/nav[@id='nav-website']//div[@id='desktop-menu']//input[@placeholder='Weather in your city']] to display is: [0] seconds.
+[10-19 03:53:23AM][DEBUG][Home][performSearch][55] - Submit value for text box.
+[10-19 03:53:23AM][DEBUG][WebBaseTestExtend][setData][1999] - Set Data
+[10-19 03:53:23AM][DEBUG][BaseTest][getBy][209] - Checking locator By.xpath: /html/body/nav[@id='nav-website']//div[@id='desktop-menu']//input[@placeholder='Weather in your city']
+[10-19 03:53:23AM][DEBUG][WebBaseTestExtend][waitPageReady][1536] - Wait until Page is Ready within [15] SECONDS
+[10-19 03:53:24AM][DEBUG][ExcelReport][event][355] - Report event 'Set text of [Taumatawhakatangihangakoauauotamateaturipukakapikimaungahoronukupokaiwhenuakitanatahu] to variable [OW.Home.Search.Input]' is 'Passed' and 'No Error'.
+[10-19 03:53:24AM][INFO ][Report][event][147] - [OW-007] Set text of [Taumatawhakatangihangakoauauotamateaturipukakapikimaungahoronukupokaiwhenuakitanatahu] to variable [OW.Home.Search.Input]
+[10-19 03:53:24AM][INFO ][SearchResult][getPage][24] - Get search result page ready for the test
+[10-19 03:53:24AM][DEBUG][WebBaseTestExtend][waitPageReady][1536] - Wait until Page is Ready within [15] SECONDS
+[10-19 03:53:24AM][DEBUG][BaseTest][getBy][209] - Checking locator By.xpath: //*[@id="forecast_list_ul"]
+[10-19 03:53:24AM][DEBUG][WebBaseTestExtend][waitUntilDisplay][837] - Wait until object [By.xpath: //*[@id="forecast_list_ul"]] display within [15] seconds
+[10-19 03:53:24AM][DEBUG][WebBaseTestExtend][lambda$1][849] - Object [By.xpath: //*[@id="forecast_list_ul"]] still NOT displayed
+[10-19 03:53:25AM][DEBUG][WebBaseTestExtend][lambda$1][849] - Object [By.xpath: //*[@id="forecast_list_ul"]] still NOT displayed
+[10-19 03:53:25AM][DEBUG][WebBaseTestExtend][lambda$1][849] - Object [By.xpath: //*[@id="forecast_list_ul"]] still NOT displayed
+[10-19 03:53:25AM][DEBUG][WebBaseTestExtend][lambda$1][849] - Object [By.xpath: //*[@id="forecast_list_ul"]] still NOT displayed
+[10-19 03:53:25AM][DEBUG][WebBaseTestExtend][lambda$1][849] - Object [By.xpath: //*[@id="forecast_list_ul"]] still NOT displayed
+[10-19 03:53:26AM][DEBUG][WebBaseTestExtend][lambda$1][849] - Object [By.xpath: //*[@id="forecast_list_ul"]] still NOT displayed
+[10-19 03:53:26AM][DEBUG][WebBaseTestExtend][lambda$1][849] - Object [By.xpath: //*[@id="forecast_list_ul"]] still NOT displayed
+[10-19 03:53:26AM][DEBUG][WebBaseTestExtend][lambda$1][849] - Object [By.xpath: //*[@id="forecast_list_ul"]] still NOT displayed
+[10-19 03:53:27AM][DEBUG][WebBaseTestExtend][lambda$1][849] - Object [By.xpath: //*[@id="forecast_list_ul"]] still NOT displayed
+[10-19 03:53:27AM][DEBUG][WebBaseTestExtend][lambda$1][849] - Object [By.xpath: //*[@id="forecast_list_ul"]] still NOT displayed
+[10-19 03:53:27AM][DEBUG][WebBaseTestExtend][lambda$1][849] - Object [By.xpath: //*[@id="forecast_list_ul"]] still NOT displayed
+[10-19 03:53:27AM][DEBUG][WebBaseTestExtend][lambda$1][849] - Object [By.xpath: //*[@id="forecast_list_ul"]] still NOT displayed
+[10-19 03:53:28AM][DEBUG][WebBaseTestExtend][lambda$1][849] - Object [By.xpath: //*[@id="forecast_list_ul"]] still NOT displayed
+[10-19 03:53:28AM][DEBUG][WebBaseTestExtend][lambda$1][849] - Object [By.xpath: //*[@id="forecast_list_ul"]] still NOT displayed
+[10-19 03:53:28AM][DEBUG][WebBaseTestExtend][lambda$1][849] - Object [By.xpath: //*[@id="forecast_list_ul"]] still NOT displayed
+[10-19 03:53:29AM][DEBUG][WebBaseTestExtend][lambda$1][849] - Object [By.xpath: //*[@id="forecast_list_ul"]] still NOT displayed
+[10-19 03:53:29AM][DEBUG][WebBaseTestExtend][lambda$1][849] - Object [By.xpath: //*[@id="forecast_list_ul"]] still NOT displayed
+[10-19 03:53:29AM][DEBUG][WebBaseTestExtend][lambda$1][849] - Object [By.xpath: //*[@id="forecast_list_ul"]] still NOT displayed
+[10-19 03:53:29AM][DEBUG][WebBaseTestExtend][lambda$1][849] - Object [By.xpath: //*[@id="forecast_list_ul"]] still NOT displayed
+[10-19 03:53:30AM][DEBUG][WebBaseTestExtend][lambda$1][849] - Object [By.xpath: //*[@id="forecast_list_ul"]] still NOT displayed
+[10-19 03:53:30AM][DEBUG][WebBaseTestExtend][lambda$1][849] - Object [By.xpath: //*[@id="forecast_list_ul"]] still NOT displayed
+[10-19 03:53:30AM][DEBUG][WebBaseTestExtend][lambda$1][849] - Object [By.xpath: //*[@id="forecast_list_ul"]] still NOT displayed
+[10-19 03:53:31AM][DEBUG][WebBaseTestExtend][lambda$1][849] - Object [By.xpath: //*[@id="forecast_list_ul"]] still NOT displayed
+[10-19 03:53:31AM][DEBUG][WebBaseTestExtend][lambda$1][849] - Object [By.xpath: //*[@id="forecast_list_ul"]] still NOT displayed
+[10-19 03:53:31AM][DEBUG][WebBaseTestExtend][lambda$1][849] - Object [By.xpath: //*[@id="forecast_list_ul"]] still NOT displayed
+[10-19 03:53:31AM][DEBUG][WebBaseTestExtend][lambda$1][849] - Object [By.xpath: //*[@id="forecast_list_ul"]] still NOT displayed
+[10-19 03:53:32AM][DEBUG][WebBaseTestExtend][lambda$1][849] - Object [By.xpath: //*[@id="forecast_list_ul"]] still NOT displayed
+[10-19 03:53:32AM][DEBUG][WebBaseTestExtend][lambda$1][849] - Object [By.xpath: //*[@id="forecast_list_ul"]] still NOT displayed
+[10-19 03:53:32AM][DEBUG][WebBaseTestExtend][lambda$1][849] - Object [By.xpath: //*[@id="forecast_list_ul"]] still NOT displayed
+[10-19 03:53:33AM][DEBUG][WebBaseTestExtend][lambda$1][849] - Object [By.xpath: //*[@id="forecast_list_ul"]] still NOT displayed
+[10-19 03:53:33AM][DEBUG][WebBaseTestExtend][lambda$1][849] - Object [By.xpath: //*[@id="forecast_list_ul"]] still NOT displayed
+[10-19 03:53:33AM][DEBUG][WebBaseTestExtend][lambda$1][849] - Object [By.xpath: //*[@id="forecast_list_ul"]] still NOT displayed
+[10-19 03:53:33AM][DEBUG][WebBaseTestExtend][lambda$1][849] - Object [By.xpath: //*[@id="forecast_list_ul"]] still NOT displayed
+[10-19 03:53:34AM][DEBUG][WebBaseTestExtend][lambda$1][849] - Object [By.xpath: //*[@id="forecast_list_ul"]] still NOT displayed
+[10-19 03:53:34AM][DEBUG][WebBaseTestExtend][lambda$1][849] - Object [By.xpath: //*[@id="forecast_list_ul"]] still NOT displayed
+[10-19 03:53:34AM][DEBUG][WebBaseTestExtend][lambda$1][849] - Object [By.xpath: //*[@id="forecast_list_ul"]] still NOT displayed
+[10-19 03:53:35AM][DEBUG][WebBaseTestExtend][lambda$1][849] - Object [By.xpath: //*[@id="forecast_list_ul"]] still NOT displayed
+[10-19 03:53:35AM][DEBUG][WebBaseTestExtend][lambda$1][849] - Object [By.xpath: //*[@id="forecast_list_ul"]] still NOT displayed
+[10-19 03:53:35AM][DEBUG][WebBaseTestExtend][lambda$1][849] - Object [By.xpath: //*[@id="forecast_list_ul"]] still NOT displayed
+[10-19 03:53:35AM][DEBUG][WebBaseTestExtend][lambda$1][849] - Object [By.xpath: //*[@id="forecast_list_ul"]] still NOT displayed
+[10-19 03:53:36AM][DEBUG][WebBaseTestExtend][lambda$1][849] - Object [By.xpath: //*[@id="forecast_list_ul"]] still NOT displayed
+[10-19 03:53:36AM][DEBUG][WebBaseTestExtend][lambda$1][849] - Object [By.xpath: //*[@id="forecast_list_ul"]] still NOT displayed
+[10-19 03:53:36AM][DEBUG][WebBaseTestExtend][lambda$1][849] - Object [By.xpath: //*[@id="forecast_list_ul"]] still NOT displayed
+[10-19 03:53:37AM][DEBUG][WebBaseTestExtend][lambda$1][849] - Object [By.xpath: //*[@id="forecast_list_ul"]] still NOT displayed
+[10-19 03:53:37AM][DEBUG][WebBaseTestExtend][lambda$1][849] - Object [By.xpath: //*[@id="forecast_list_ul"]] still NOT displayed
+[10-19 03:53:37AM][DEBUG][WebBaseTestExtend][lambda$1][849] - Object [By.xpath: //*[@id="forecast_list_ul"]] still NOT displayed
+[10-19 03:53:37AM][DEBUG][WebBaseTestExtend][lambda$1][849] - Object [By.xpath: //*[@id="forecast_list_ul"]] still NOT displayed
+[10-19 03:53:38AM][DEBUG][WebBaseTestExtend][lambda$1][849] - Object [By.xpath: //*[@id="forecast_list_ul"]] still NOT displayed
+[10-19 03:53:38AM][DEBUG][WebBaseTestExtend][lambda$1][849] - Object [By.xpath: //*[@id="forecast_list_ul"]] still NOT displayed
+[10-19 03:53:38AM][DEBUG][WebBaseTestExtend][lambda$1][849] - Object [By.xpath: //*[@id="forecast_list_ul"]] still NOT displayed
+[10-19 03:53:39AM][DEBUG][WebBaseTestExtend][lambda$1][849] - Object [By.xpath: //*[@id="forecast_list_ul"]] still NOT displayed
+[10-19 03:53:39AM][DEBUG][WebBaseTestExtend][lambda$1][849] - Object [By.xpath: //*[@id="forecast_list_ul"]] still NOT displayed
+[10-19 03:53:39AM][ERROR][WebBaseTestExtend][waitUntilDisplay][854] - Waiting object [By.xpath: //*[@id="forecast_list_ul"]] displayed, TIMEOUT!
+[10-19 03:53:39AM][DEBUG][ExcelReport][event][355] - Report event 'Waiting object [By.xpath: //*[@id="forecast_list_ul"]] displayed' is 'Failed' and 'TIMEOUT reached'.
+[10-19 03:53:39AM][ERROR][Report][event][153] - [OW-007] Waiting object [By.xpath: //*[@id="forecast_list_ul"]] displayed => TIMEOUT reached
+[10-19 03:53:39AM][DEBUG][ExcelReport][event][355] - Report event 'Perform search weather in [Taumatawhakatangihangakoauauotamateaturipukakapikimaungahoronukupokaiwhenuakitanatahu]' is 'Failed' and 'Failed to search city with data set'.
+[10-19 03:53:39AM][ERROR][Report][event][153] - [OW-007] Perform search weather in [Taumatawhakatangihangakoauauotamateaturipukakapikimaungahoronukupokaiwhenuakitanatahu] => Failed to search city with data set
+[10-19 03:53:39AM][DEBUG][ExcelReport][event][355] - Report event '[HOME SCREEN] Perform search with given city name.' is 'Failed' and 'TIMEOUT reached
+Failed to search city with data set
+'.
+[10-19 03:53:39AM][ERROR][Report][event][153] - [OW-007] [HOME SCREEN] Perform search with given city name. => TIMEOUT reached
+Failed to search city with data set
+
+[10-19 03:53:39AM][DEBUG][Runner][executeScenario][478] - Running keyword: assertSearchResult
+[10-19 03:53:39AM][DEBUG][Data][loadDataFromExcel][35] - Load data from Excel with data name [Search]
+[10-19 03:53:39AM][INFO ][SearchResultKeywords][assertSearchResult][19] - Verify [Taumatawhakatangihangakoauauotamateaturipukakapikimaungahoronukupokaiwhenuakitanatahu] appeared in search result.
+[10-19 03:53:39AM][INFO ][SearchResult][assertSearchResult][32] - Verify search result contains correct city
+[10-19 03:53:39AM][DEBUG][WebBaseTestExtend][waitPageReady][1536] - Wait until Page is Ready within [15] SECONDS
+[10-19 03:53:54AM][ERROR][SeleniumBaseTest][getElement][607] - [akaAT] No such element [By.xpath: //*[@id="forecast_list_ul"]//a[contains(.,'Taumatawhakatangihangakoauauotamateaturipukakapikimaungahoronukupokaiwhenuakitanatahu')]]
+[10-19 03:53:54AM][DEBUG][ExcelReport][event][355] - Report event 'Verify [Taumatawhakatangihangakoauauotamateaturipukakapikimaungahoronukupokaiwhenuakitanatahu] appeared in search result.' is 'Failed' and 'Unable to find [Taumatawhakatangihangakoauauotamateaturipukakapikimaungahoronukupokaiwhenuakitanatahu] in Search Result'.
+[10-19 03:53:54AM][ERROR][Report][event][153] - [OW-007] Verify [Taumatawhakatangihangakoauauotamateaturipukakapikimaungahoronukupokaiwhenuakitanatahu] appeared in search result. => Unable to find [Taumatawhakatangihangakoauauotamateaturipukakapikimaungahoronukupokaiwhenuakitanatahu] in Search Result
+[10-19 03:53:54AM][DEBUG][ExcelReport][event][355] - Report event '[SEARCH RESULT SCREEN] Verifying search result contain city name.' is 'Failed' and 'Unable to find [Taumatawhakatangihangakoauauotamateaturipukakapikimaungahoronukupokaiwhenuakitanatahu] in Search Result
+'.
+[10-19 03:53:54AM][ERROR][Report][event][153] - [OW-007] [SEARCH RESULT SCREEN] Verifying search result contain city name. => Unable to find [Taumatawhakatangihangakoauauotamateaturipukakapikimaungahoronukupokaiwhenuakitanatahu] in Search Result
+
+[10-19 03:53:54AM][INFO ][Runner][executePlan][389] - [akaAT] Result OW-007: Searching the weather of city: FAILED
+[10-19 03:53:54AM][INFO ][Runner][executePlan][371] - [akaAT] Executing: OW-008: Searching the weather of city
+[10-19 03:53:54AM][DEBUG][Runner][executeScenario][478] - Running keyword: searchCity
+[10-19 03:53:54AM][DEBUG][Data][loadDataFromExcel][35] - Load data from Excel with data name [Search]
+[10-19 03:53:54AM][INFO ][HomeKeywords][searchCity][21] - Perform search weather in [Commonwealth of Massachusetts]
+[10-19 03:53:56AM][DEBUG][ExcelReport][event][355] - Report event 'Navigate to page at https://openweathermap.org/' is 'Passed' and 'No Error'.
+[10-19 03:53:56AM][INFO ][Report][event][147] - [OW-008] Navigate to page at https://openweathermap.org/
+[10-19 03:53:56AM][INFO ][Home][getPage][41] - Get Home page ready for the test
+[10-19 03:53:56AM][DEBUG][WebBaseTestExtend][waitPageReady][1536] - Wait until Page is Ready within [15] SECONDS
+[10-19 03:53:56AM][DEBUG][BaseTest][getBy][209] - Checking locator By.xpath: /html/body/nav[@id='nav-website']
+[10-19 03:53:56AM][DEBUG][WebBaseTestExtend][waitUntilDisplay][837] - Wait until object [By.xpath: /html/body/nav[@id='nav-website']] display within [15] seconds
+[10-19 03:53:57AM][DEBUG][WebBaseTestExtend][waitUntilDisplay][859] - Time taken for [By.xpath: /html/body/nav[@id='nav-website']] to display is: [0] seconds.
+[10-19 03:53:57AM][INFO ][Home][performSearch][49] - Perform search with string
+[10-19 03:53:57AM][DEBUG][WebBaseTestExtend][waitPageReady][1536] - Wait until Page is Ready within [15] SECONDS
+[10-19 03:53:57AM][DEBUG][Home][performSearch][53] - Waiting for Search input box visible.
+[10-19 03:53:57AM][DEBUG][BaseTest][getBy][209] - Checking locator By.xpath: /html/body/nav[@id='nav-website']//div[@id='desktop-menu']//input[@placeholder='Weather in your city']
+[10-19 03:53:57AM][DEBUG][WebBaseTestExtend][waitUntilDisplay][837] - Wait until object [By.xpath: /html/body/nav[@id='nav-website']//div[@id='desktop-menu']//input[@placeholder='Weather in your city']] display within [15] seconds
+[10-19 03:53:57AM][DEBUG][WebBaseTestExtend][waitUntilDisplay][859] - Time taken for [By.xpath: /html/body/nav[@id='nav-website']//div[@id='desktop-menu']//input[@placeholder='Weather in your city']] to display is: [0] seconds.
+[10-19 03:53:57AM][DEBUG][Home][performSearch][55] - Submit value for text box.
+[10-19 03:53:57AM][DEBUG][WebBaseTestExtend][setData][1999] - Set Data
+[10-19 03:53:57AM][DEBUG][BaseTest][getBy][209] - Checking locator By.xpath: /html/body/nav[@id='nav-website']//div[@id='desktop-menu']//input[@placeholder='Weather in your city']
+[10-19 03:53:57AM][DEBUG][WebBaseTestExtend][waitPageReady][1536] - Wait until Page is Ready within [15] SECONDS
+[10-19 03:53:57AM][DEBUG][ExcelReport][event][355] - Report event 'Set text of [Commonwealth of Massachusetts] to variable [OW.Home.Search.Input]' is 'Passed' and 'No Error'.
+[10-19 03:53:57AM][INFO ][Report][event][147] - [OW-008] Set text of [Commonwealth of Massachusetts] to variable [OW.Home.Search.Input]
+[10-19 03:53:57AM][INFO ][SearchResult][getPage][24] - Get search result page ready for the test
+[10-19 03:53:57AM][DEBUG][WebBaseTestExtend][waitPageReady][1536] - Wait until Page is Ready within [15] SECONDS
+[10-19 03:53:57AM][DEBUG][BaseTest][getBy][209] - Checking locator By.xpath: //*[@id="forecast_list_ul"]
+[10-19 03:53:57AM][DEBUG][WebBaseTestExtend][waitUntilDisplay][837] - Wait until object [By.xpath: //*[@id="forecast_list_ul"]] display within [15] seconds
+[10-19 03:53:58AM][DEBUG][WebBaseTestExtend][lambda$1][849] - Object [By.xpath: //*[@id="forecast_list_ul"]] still NOT displayed
+[10-19 03:53:58AM][DEBUG][WebBaseTestExtend][lambda$1][849] - Object [By.xpath: //*[@id="forecast_list_ul"]] still NOT displayed
+[10-19 03:53:58AM][DEBUG][WebBaseTestExtend][waitUntilDisplay][859] - Time taken for [By.xpath: //*[@id="forecast_list_ul"]] to display is: [1] seconds.
+[10-19 03:53:58AM][DEBUG][ExcelReport][event][355] - Report event 'Perform search weather in [Commonwealth of Massachusetts]' is 'Passed' and 'No Error'.
+[10-19 03:53:58AM][INFO ][Report][event][147] - [OW-008] Perform search weather in [Commonwealth of Massachusetts]
+[10-19 03:53:58AM][DEBUG][ExcelReport][event][355] - Report event '[HOME SCREEN] Perform search with given city name.' is 'Passed' and 'No Error'.
+[10-19 03:53:58AM][INFO ][Report][event][147] - [OW-008] [HOME SCREEN] Perform search with given city name.
+[10-19 03:53:58AM][DEBUG][Runner][executeScenario][478] - Running keyword: assertSearchResult
+[10-19 03:53:58AM][DEBUG][Data][loadDataFromExcel][35] - Load data from Excel with data name [Search]
+[10-19 03:53:58AM][INFO ][SearchResultKeywords][assertSearchResult][19] - Verify [Commonwealth of Massachusetts] appeared in search result.
+[10-19 03:53:58AM][INFO ][SearchResult][assertSearchResult][32] - Verify search result contains correct city
+[10-19 03:53:58AM][DEBUG][WebBaseTestExtend][waitPageReady][1536] - Wait until Page is Ready within [15] SECONDS
+[10-19 03:54:13AM][ERROR][SeleniumBaseTest][getElement][607] - [akaAT] No such element [By.xpath: //*[@id="forecast_list_ul"]//a[contains(.,'Commonwealth of Massachusetts')]]
+[10-19 03:54:14AM][DEBUG][ExcelReport][event][355] - Report event 'Verify [Commonwealth of Massachusetts] appeared in search result.' is 'Failed' and 'Unable to find [Commonwealth of Massachusetts] in Search Result'.
+[10-19 03:54:14AM][ERROR][Report][event][153] - [OW-008] Verify [Commonwealth of Massachusetts] appeared in search result. => Unable to find [Commonwealth of Massachusetts] in Search Result
+[10-19 03:54:14AM][DEBUG][ExcelReport][event][355] - Report event '[SEARCH RESULT SCREEN] Verifying search result contain city name.' is 'Failed' and 'Unable to find [Commonwealth of Massachusetts] in Search Result
+'.
+[10-19 03:54:14AM][ERROR][Report][event][153] - [OW-008] [SEARCH RESULT SCREEN] Verifying search result contain city name. => Unable to find [Commonwealth of Massachusetts] in Search Result
+
+[10-19 03:54:14AM][INFO ][Runner][executePlan][389] - [akaAT] Result OW-008: Searching the weather of city: FAILED
+[10-19 03:54:14AM][INFO ][Runner][executePlan][371] - [akaAT] Executing: OW-009: Searching the weather of city
+[10-19 03:54:14AM][DEBUG][Runner][executeScenario][478] - Running keyword: searchCity
+[10-19 03:54:14AM][DEBUG][Data][loadDataFromExcel][35] - Load data from Excel with data name [Search]
+[10-19 03:54:14AM][INFO ][HomeKeywords][searchCity][21] - Perform search weather in [Winchester-on-the-Severn]
+[10-19 03:54:16AM][DEBUG][ExcelReport][event][355] - Report event 'Navigate to page at https://openweathermap.org/' is 'Passed' and 'No Error'.
+[10-19 03:54:16AM][INFO ][Report][event][147] - [OW-009] Navigate to page at https://openweathermap.org/
+[10-19 03:54:16AM][INFO ][Home][getPage][41] - Get Home page ready for the test
+[10-19 03:54:16AM][DEBUG][WebBaseTestExtend][waitPageReady][1536] - Wait until Page is Ready within [15] SECONDS
+[10-19 03:54:16AM][DEBUG][BaseTest][getBy][209] - Checking locator By.xpath: /html/body/nav[@id='nav-website']
+[10-19 03:54:16AM][DEBUG][WebBaseTestExtend][waitUntilDisplay][837] - Wait until object [By.xpath: /html/body/nav[@id='nav-website']] display within [15] seconds
+[10-19 03:54:16AM][DEBUG][WebBaseTestExtend][waitUntilDisplay][859] - Time taken for [By.xpath: /html/body/nav[@id='nav-website']] to display is: [0] seconds.
+[10-19 03:54:16AM][INFO ][Home][performSearch][49] - Perform search with string
+[10-19 03:54:16AM][DEBUG][WebBaseTestExtend][waitPageReady][1536] - Wait until Page is Ready within [15] SECONDS
+[10-19 03:54:16AM][DEBUG][Home][performSearch][53] - Waiting for Search input box visible.
+[10-19 03:54:16AM][DEBUG][BaseTest][getBy][209] - Checking locator By.xpath: /html/body/nav[@id='nav-website']//div[@id='desktop-menu']//input[@placeholder='Weather in your city']
+[10-19 03:54:16AM][DEBUG][WebBaseTestExtend][waitUntilDisplay][837] - Wait until object [By.xpath: /html/body/nav[@id='nav-website']//div[@id='desktop-menu']//input[@placeholder='Weather in your city']] display within [15] seconds
+[10-19 03:54:16AM][DEBUG][WebBaseTestExtend][waitUntilDisplay][859] - Time taken for [By.xpath: /html/body/nav[@id='nav-website']//div[@id='desktop-menu']//input[@placeholder='Weather in your city']] to display is: [0] seconds.
+[10-19 03:54:16AM][DEBUG][Home][performSearch][55] - Submit value for text box.
+[10-19 03:54:16AM][DEBUG][WebBaseTestExtend][setData][1999] - Set Data
+[10-19 03:54:16AM][DEBUG][BaseTest][getBy][209] - Checking locator By.xpath: /html/body/nav[@id='nav-website']//div[@id='desktop-menu']//input[@placeholder='Weather in your city']
+[10-19 03:54:16AM][DEBUG][WebBaseTestExtend][waitPageReady][1536] - Wait until Page is Ready within [15] SECONDS
+[10-19 03:54:16AM][DEBUG][ExcelReport][event][355] - Report event 'Set text of [Winchester-on-the-Severn] to variable [OW.Home.Search.Input]' is 'Passed' and 'No Error'.
+[10-19 03:54:16AM][INFO ][Report][event][147] - [OW-009] Set text of [Winchester-on-the-Severn] to variable [OW.Home.Search.Input]
+[10-19 03:54:16AM][INFO ][SearchResult][getPage][24] - Get search result page ready for the test
+[10-19 03:54:16AM][DEBUG][WebBaseTestExtend][waitPageReady][1536] - Wait until Page is Ready within [15] SECONDS
+[10-19 03:54:16AM][DEBUG][BaseTest][getBy][209] - Checking locator By.xpath: //*[@id="forecast_list_ul"]
+[10-19 03:54:16AM][DEBUG][WebBaseTestExtend][waitUntilDisplay][837] - Wait until object [By.xpath: //*[@id="forecast_list_ul"]] display within [15] seconds
+[10-19 03:54:17AM][DEBUG][WebBaseTestExtend][lambda$1][849] - Object [By.xpath: //*[@id="forecast_list_ul"]] still NOT displayed
+[10-19 03:54:17AM][DEBUG][WebBaseTestExtend][lambda$1][849] - Object [By.xpath: //*[@id="forecast_list_ul"]] still NOT displayed
+[10-19 03:54:18AM][DEBUG][WebBaseTestExtend][waitUntilDisplay][859] - Time taken for [By.xpath: //*[@id="forecast_list_ul"]] to display is: [1] seconds.
+[10-19 03:54:18AM][DEBUG][ExcelReport][event][355] - Report event 'Perform search weather in [Winchester-on-the-Severn]' is 'Passed' and 'No Error'.
+[10-19 03:54:18AM][INFO ][Report][event][147] - [OW-009] Perform search weather in [Winchester-on-the-Severn]
+[10-19 03:54:18AM][DEBUG][ExcelReport][event][355] - Report event '[HOME SCREEN] Perform search with given city name.' is 'Passed' and 'No Error'.
+[10-19 03:54:18AM][INFO ][Report][event][147] - [OW-009] [HOME SCREEN] Perform search with given city name.
+[10-19 03:54:18AM][DEBUG][Runner][executeScenario][478] - Running keyword: assertSearchResult
+[10-19 03:54:18AM][DEBUG][Data][loadDataFromExcel][35] - Load data from Excel with data name [Search]
+[10-19 03:54:18AM][INFO ][SearchResultKeywords][assertSearchResult][19] - Verify [Winchester-on-the-Severn] appeared in search result.
+[10-19 03:54:18AM][INFO ][SearchResult][assertSearchResult][32] - Verify search result contains correct city
+[10-19 03:54:18AM][DEBUG][WebBaseTestExtend][waitPageReady][1536] - Wait until Page is Ready within [15] SECONDS
+[10-19 03:54:19AM][DEBUG][ExcelReport][event][355] - Report event 'Verify [Winchester-on-the-Severn] appeared in search result.' is 'Passed' and 'No Error'.
+[10-19 03:54:19AM][INFO ][Report][event][147] - [OW-009] Verify [Winchester-on-the-Severn] appeared in search result.
+[10-19 03:54:19AM][DEBUG][ExcelReport][event][355] - Report event '[SEARCH RESULT SCREEN] Verifying search result contain city name.' is 'Passed' and 'No Error'.
+[10-19 03:54:19AM][INFO ][Report][event][147] - [OW-009] [SEARCH RESULT SCREEN] Verifying search result contain city name.
+[10-19 03:54:19AM][INFO ][Runner][executePlan][395] - [akaAT] Result OW-009: Searching the weather of city: PASSED
+[10-19 03:54:19AM][INFO ][Runner][executePlan][371] - [akaAT] Executing: OW-010: Searching the weather of city
+[10-19 03:54:19AM][DEBUG][Runner][executeScenario][478] - Running keyword: searchCity
+[10-19 03:54:19AM][DEBUG][Data][loadDataFromExcel][35] - Load data from Excel with data name [Search]
+[10-19 03:54:19AM][INFO ][HomeKeywords][searchCity][21] - Perform search weather in [Madrid]
+[10-19 03:54:21AM][DEBUG][ExcelReport][event][355] - Report event 'Navigate to page at https://openweathermap.org/' is 'Passed' and 'No Error'.
+[10-19 03:54:21AM][INFO ][Report][event][147] - [OW-010] Navigate to page at https://openweathermap.org/
+[10-19 03:54:21AM][INFO ][Home][getPage][41] - Get Home page ready for the test
+[10-19 03:54:21AM][DEBUG][WebBaseTestExtend][waitPageReady][1536] - Wait until Page is Ready within [15] SECONDS
+[10-19 03:54:21AM][DEBUG][BaseTest][getBy][209] - Checking locator By.xpath: /html/body/nav[@id='nav-website']
+[10-19 03:54:21AM][DEBUG][WebBaseTestExtend][waitUntilDisplay][837] - Wait until object [By.xpath: /html/body/nav[@id='nav-website']] display within [15] seconds
+[10-19 03:54:21AM][DEBUG][WebBaseTestExtend][waitUntilDisplay][859] - Time taken for [By.xpath: /html/body/nav[@id='nav-website']] to display is: [0] seconds.
+[10-19 03:54:21AM][INFO ][Home][performSearch][49] - Perform search with string
+[10-19 03:54:21AM][DEBUG][WebBaseTestExtend][waitPageReady][1536] - Wait until Page is Ready within [15] SECONDS
+[10-19 03:54:21AM][DEBUG][Home][performSearch][53] - Waiting for Search input box visible.
+[10-19 03:54:21AM][DEBUG][BaseTest][getBy][209] - Checking locator By.xpath: /html/body/nav[@id='nav-website']//div[@id='desktop-menu']//input[@placeholder='Weather in your city']
+[10-19 03:54:21AM][DEBUG][WebBaseTestExtend][waitUntilDisplay][837] - Wait until object [By.xpath: /html/body/nav[@id='nav-website']//div[@id='desktop-menu']//input[@placeholder='Weather in your city']] display within [15] seconds
+[10-19 03:54:21AM][DEBUG][WebBaseTestExtend][waitUntilDisplay][859] - Time taken for [By.xpath: /html/body/nav[@id='nav-website']//div[@id='desktop-menu']//input[@placeholder='Weather in your city']] to display is: [0] seconds.
+[10-19 03:54:21AM][DEBUG][Home][performSearch][55] - Submit value for text box.
+[10-19 03:54:21AM][DEBUG][WebBaseTestExtend][setData][1999] - Set Data
+[10-19 03:54:21AM][DEBUG][BaseTest][getBy][209] - Checking locator By.xpath: /html/body/nav[@id='nav-website']//div[@id='desktop-menu']//input[@placeholder='Weather in your city']
+[10-19 03:54:21AM][DEBUG][WebBaseTestExtend][waitPageReady][1536] - Wait until Page is Ready within [15] SECONDS
+[10-19 03:54:21AM][DEBUG][ExcelReport][event][355] - Report event 'Set text of [Madrid] to variable [OW.Home.Search.Input]' is 'Passed' and 'No Error'.
+[10-19 03:54:21AM][INFO ][Report][event][147] - [OW-010] Set text of [Madrid] to variable [OW.Home.Search.Input]

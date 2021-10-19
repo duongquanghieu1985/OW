@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<execution-plan>
+    <aut_path>https://openweathermap.org/</aut_path>
+    <file Path="OpenWeatherSearch.xml" type="Test Case">
+        <scenario InSheet="OW" TestID="OW-001" run="1">Searching the weather of city</scenario>
+        <scenario InSheet="OW" TestID="OW-002" run="1">Searching the weather of city</scenario>
+        <scenario InSheet="OW" TestID="OW-003" run="1">Searching the weather of city</scenario>
+        <scenario InSheet="OW" TestID="OW-004" run="1">Searching the weather of city</scenario>
+        <scenario InSheet="OW" TestID="OW-005" run="1">Searching the weather of city</scenario>
+        <scenario InSheet="OW" TestID="OW-006" run="1">Searching the weather of city</scenario>
+        <scenario InSheet="OW" TestID="OW-007" run="1">Searching the weather of city</scenario>
+        <scenario InSheet="OW" TestID="OW-008" run="1">Searching the weather of city</scenario>
+        <scenario InSheet="OW" TestID="OW-009" run="1">Searching the weather of city</scenario>
+        <scenario InSheet="OW" TestID="OW-010" run="1">Searching the weather of city</scenario>
+    </file>
+</execution-plan>

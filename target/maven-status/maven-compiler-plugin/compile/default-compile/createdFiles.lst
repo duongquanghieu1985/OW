@@ -1,0 +1,14 @@
+com\fpt\ivs\akaAT\data\Data.class
+com\fpt\ivs\akaAT\variable\Clipboard.class
+com\fpt\ivs\akaAT\pages\SearchResult.class
+com\fpt\ivs\akaAT\pages\Home.class
+com\fpt\ivs\akaAT\pages\objects\AbstractDataAccessableObject.class
+com\fpt\ivs\akaAT\data\AbstractData.class
+com\fpt\ivs\akaAT\variable\VariableManager.class
+com\fpt\ivs\akaAT\pages\CityWeatherInfo.class
+com\fpt\ivs\akaAT\keywords\SearchResultKeywords.class
+com\fpt\ivs\akaAT\data\SupportedData.class
+com\fpt\ivs\akaAT\pages\objects\AbstractObject.class
+com\fpt\ivs\akaAT\main\TestRunner.class
+com\fpt\ivs\akaAT\keywords\HomeKeywords.class
+com\fpt\ivs\akaAT\WebBaseTestExtend.class

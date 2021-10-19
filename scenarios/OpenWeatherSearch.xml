@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Scenarios>
+    <Sheets>
+        <Sheet name="OW">
+            <DataFile name="SearchDataGeneral.xlsx" sheet="Data"/>
+            <TestIDs name="001;002;003;004;005;006;007;008;009;010;"/>
+            <Keywords>
+                <Keyword description="[HOME SCREEN] Perform search with given city name." name="searchCity" priority="1">
+                    <Params>
+                        <Param>Search</Param>
+                    </Params>
+                </Keyword>
+                <Keyword description="[SEARCH RESULT SCREEN] Verifying search result contain city name." name="assertSearchResult" priority="1">
+                    <Params>
+                        <Param>Search</Param>
+                    </Params>
+                </Keyword>
+            </Keywords>
+        </Sheet>
+    </Sheets>
+</Scenarios>

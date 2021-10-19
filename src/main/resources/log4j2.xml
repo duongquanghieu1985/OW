@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="INFO">
+
+	<CustomLevels>
+		<CustomLevel name="CUSTOM" intLevel="50" />
+	</CustomLevels>
+
+	<Appenders>
+
+
+		<Console name="Console" target="SYSTEM_OUT">
+			<PatternLayout pattern="[%d{MM-dd HH:mm:ssa}][%-5p][%C{1}][%M][%L] - %msg%n" />
+		</Console>
+
+		<File name="MyFile" fileName="logs/akaAT-report.log"
+			immediateFlush="false" append="false">
+			<PatternLayout pattern="[%d{MM-dd HH:mm:ssa}][%-5p][%C{1}][%M][%L] - %msg%n" />
+		</File>
+
+	</Appenders>
+
+	<Loggers>
+		<Logger name="com.fpt.cme.art" level="debug" />
+
+		<Root level="debug">
+			<AppenderRef ref="MyFile" level="debug" />
+			<AppenderRef ref="Console" level="debug" />
+		</Root>
+
+	</Loggers>
+
+</Configuration>
+
