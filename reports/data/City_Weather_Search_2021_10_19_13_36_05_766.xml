@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<TestResult>
+    <Summary>
+        <StartTime>Oct-19 13:36:05 PM</StartTime>
+        <EndTime>Oct-19 13:38:19 PM</EndTime>
+        <Duration>0:2:13</Duration>
+        <TotalTest/>
+        <FailedTest/>
+        <PassTest/>
+        <WarningTest/>
+    </Summary>
+    <TestScenario FolderData="OW-001_2021_10_19_13_36_06_678" FolderHyperlink="data\OW-001_2021_10_19_13_36_06_678\" NStep="6" Result="Passed" Title="OW-001: Searching the weather of city">
+        <Keyword Description="[HOME SCREEN] Perform search with given city name.">
+            <Step Description="Navigate to page at https://openweathermap.org/" ErrMsg="" SnapShotHyperlink="data\OW-001_2021_10_19_13_36_06_678\OW-001_1.jpg" SnapShotName="OW-001_1" duration="18.696s">Passed</Step>
+            <Step Description="Set text of [Ho Chi Minh] to variable [OW.Home.Search.Input]" ErrMsg="" SnapShotHyperlink="data\OW-001_2021_10_19_13_36_06_678\OW-001_2.jpg" SnapShotName="OW-001_2" duration="2.423s">Passed</Step>
+            <Step Description="Perform search weather in [Ho Chi Minh]" ErrMsg="" SnapShotHyperlink="data\OW-001_2021_10_19_13_36_06_678\OW-001_3.jpg" SnapShotName="OW-001_3" duration="0.378s">Passed</Step>
+            <Step Description="[HOME SCREEN] Perform search with given city name." ErrMsg="">Passed</Step>
+        </Keyword>
+        <Keyword Description="[SEARCH RESULT SCREEN] Verifying search result contain city name.">
+            <Step Description="Verify [Ho Chi Minh] appeared in search result." ErrMsg="" SnapShotHyperlink="data\OW-001_2021_10_19_13_36_06_678\OW-001_4.jpg" SnapShotName="OW-001_4" duration="0.314s">Passed</Step>
+            <Step Description="[SEARCH RESULT SCREEN] Verifying search result contain city name." ErrMsg="">Passed</Step>
+        </Keyword>
+        <Duration value="21.811s"/>
+    </TestScenario>
+    <TestScenario FolderData="OW-002_2021_10_19_13_36_27_704" FolderHyperlink="data\OW-002_2021_10_19_13_36_27_704\" NStep="6" Result="Passed" Title="OW-002: Searching the weather of city">
+        <Keyword Description="[HOME SCREEN] Perform search with given city name.">
+            <Step Description="Navigate to page at https://openweathermap.org/" ErrMsg="" SnapShotHyperlink="data\OW-002_2021_10_19_13_36_27_704\OW-002_1.jpg" SnapShotName="OW-002_1" duration="1.877s">Passed</Step>
+            <Step Description="Set text of [Ha Noi] to variable [OW.Home.Search.Input]" ErrMsg="" SnapShotHyperlink="data\OW-002_2021_10_19_13_36_27_704\OW-002_2.jpg" SnapShotName="OW-002_2" duration="2.742s">Passed</Step>
+            <Step Description="Perform search weather in [Ha Noi]" ErrMsg="" SnapShotHyperlink="data\OW-002_2021_10_19_13_36_27_704\OW-002_3.jpg" SnapShotName="OW-002_3" duration="0.344s">Passed</Step>
+            <Step Description="[HOME SCREEN] Perform search with given city name." ErrMsg="">Passed</Step>
+        </Keyword>
+        <Keyword Description="[SEARCH RESULT SCREEN] Verifying search result contain city name.">
+            <Step Description="Verify [Ha Noi] appeared in search result." ErrMsg="" SnapShotHyperlink="data\OW-002_2021_10_19_13_36_27_704\OW-002_4.jpg" SnapShotName="OW-002_4" duration="0.295s">Passed</Step>
+            <Step Description="[SEARCH RESULT SCREEN] Verifying search result contain city name." ErrMsg="">Passed</Step>
+        </Keyword>
+        <Duration value="5.258s"/>
+    </TestScenario>
+    <TestScenario FolderData="OW-003_2021_10_19_13_36_32_920" FolderHyperlink="data\OW-003_2021_10_19_13_36_32_920\" NStep="6" Result="Passed" Title="OW-003: Searching the weather of city">
+        <Keyword Description="[HOME SCREEN] Perform search with given city name.">
+            <Step Description="Navigate to page at https://openweathermap.org/" ErrMsg="" SnapShotHyperlink="data\OW-003_2021_10_19_13_36_32_920\OW-003_1.jpg" SnapShotName="OW-003_1" duration="1.571s">Passed</Step>
+            <Step Description="Set text of [Bac Lieu] to variable [OW.Home.Search.Input]" ErrMsg="" SnapShotHyperlink="data\OW-003_2021_10_19_13_36_32_920\OW-003_2.jpg" SnapShotName="OW-003_2" duration="2.967s">Passed</Step>
+            <Step Description="Perform search weather in [Bac Lieu]" ErrMsg="" SnapShotHyperlink="data\OW-003_2021_10_19_13_36_32_920\OW-003_3.jpg" SnapShotName="OW-003_3" duration="0.364s">Passed</Step>
+            <Step Description="[HOME SCREEN] Perform search with given city name." ErrMsg="">Passed</Step>
+        </Keyword>
+        <Keyword Description="[SEARCH RESULT SCREEN] Verifying search result contain city name.">
+            <Step Description="Verify [Bac Lieu] appeared in search result." ErrMsg="" SnapShotHyperlink="data\OW-003_2021_10_19_13_36_32_920\OW-003_4.jpg" SnapShotName="OW-003_4" duration="0.304s">Passed</Step>
+            <Step Description="[SEARCH RESULT SCREEN] Verifying search result contain city name." ErrMsg="">Passed</Step>
+        </Keyword>
+        <Duration value="5.206s"/>
+    </TestScenario>
+    <TestScenario FolderData="OW-004_2021_10_19_13_36_38_106" FolderHyperlink="data\OW-004_2021_10_19_13_36_38_106\" NStep="6" Result="Passed" Title="OW-004: Searching the weather of city">
+        <Keyword Description="[HOME SCREEN] Perform search with given city name.">
+            <Step Description="Navigate to page at https://openweathermap.org/" ErrMsg="" SnapShotHyperlink="data\OW-004_2021_10_19_13_36_38_106\OW-004_1.jpg" SnapShotName="OW-004_1" duration="1.714s">Passed</Step>
+            <Step Description="Set text of [New York] to variable [OW.Home.Search.Input]" ErrMsg="" SnapShotHyperlink="data\OW-004_2021_10_19_13_36_38_106\OW-004_2.jpg" SnapShotName="OW-004_2" duration="2.501s">Passed</Step>
+            <Step Description="Perform search weather in [New York]" ErrMsg="" SnapShotHyperlink="data\OW-004_2021_10_19_13_36_38_106\OW-004_3.jpg" SnapShotName="OW-004_3" duration="0.402s">Passed</Step>
+            <Step Description="[HOME SCREEN] Perform search with given city name." ErrMsg="">Passed</Step>
+        </Keyword>
+        <Keyword Description="[SEARCH RESULT SCREEN] Verifying search result contain city name.">
+            <Step Description="Verify [New York] appeared in search result." ErrMsg="" SnapShotHyperlink="data\OW-004_2021_10_19_13_36_38_106\OW-004_4.jpg" SnapShotName="OW-004_4" duration="0.311s">Passed</Step>
+            <Step Description="[SEARCH RESULT SCREEN] Verifying search result contain city name." ErrMsg="">Passed</Step>
+        </Keyword>
+        <Duration value="4.928s"/>
+    </TestScenario>
+    <TestScenario FolderData="OW-005_2021_10_19_13_36_43_024" FolderHyperlink="data\OW-005_2021_10_19_13_36_43_024\" NStep="6" Result="Passed" Title="OW-005: Searching the weather of city">
+        <Keyword Description="[HOME SCREEN] Perform search with given city name.">
+            <Step Description="Navigate to page at https://openweathermap.org/" ErrMsg="" SnapShotHyperlink="data\OW-005_2021_10_19_13_36_43_024\OW-005_1.jpg" SnapShotName="OW-005_1" duration="1.660s">Passed</Step>
+            <Step Description="Set text of [London] to variable [OW.Home.Search.Input]" ErrMsg="" SnapShotHyperlink="data\OW-005_2021_10_19_13_36_43_024\OW-005_2.jpg" SnapShotName="OW-005_2" duration="2.564s">Passed</Step>
+            <Step Description="Perform search weather in [London]" ErrMsg="" SnapShotHyperlink="data\OW-005_2021_10_19_13_36_43_024\OW-005_3.jpg" SnapShotName="OW-005_3" duration="0.376s">Passed</Step>
+            <Step Description="[HOME SCREEN] Perform search with given city name." ErrMsg="">Passed</Step>
+        </Keyword>
+        <Keyword Description="[SEARCH RESULT SCREEN] Verifying search result contain city name.">
+            <Step Description="Verify [London] appeared in search result." ErrMsg="" SnapShotHyperlink="data\OW-005_2021_10_19_13_36_43_024\OW-005_4.jpg" SnapShotName="OW-005_4" duration="0.299s">Passed</Step>
+            <Step Description="[SEARCH RESULT SCREEN] Verifying search result contain city name." ErrMsg="">Passed</Step>
+        </Keyword>
+        <Duration value="4.899s"/>
+    </TestScenario>
+    <TestScenario FolderData="OW-006_2021_10_19_13_36_47_920" FolderHyperlink="data\OW-006_2021_10_19_13_36_47_920\" NStep="6" Result="Failed" Title="OW-006: Searching the weather of city">
+        <Keyword Description="[HOME SCREEN] Perform search with given city name.">
+            <Step Description="Navigate to page at https://openweathermap.org/" ErrMsg="" SnapShotHyperlink="data\OW-006_2021_10_19_13_36_47_920\OW-006_1.jpg" SnapShotName="OW-006_1" duration="2.203s">Passed</Step>
+            <Step Description="Set text of [Pekwachnamaykoskwaskwaypinwanik] to variable [OW.Home.Search.Input]" ErrMsg="" SnapShotHyperlink="data\OW-006_2021_10_19_13_36_47_920\OW-006_2.jpg" SnapShotName="OW-006_2" duration="2.458s">Passed</Step>
+            <Step Description="Perform search weather in [Pekwachnamaykoskwaskwaypinwanik]" ErrMsg="" SnapShotHyperlink="data\OW-006_2021_10_19_13_36_47_920\OW-006_3.jpg" SnapShotName="OW-006_3" duration="0.363s">Passed</Step>
+            <Step Description="[HOME SCREEN] Perform search with given city name." ErrMsg="">Passed</Step>
+        </Keyword>
+        <Keyword Description="[SEARCH RESULT SCREEN] Verifying search result contain city name.">
+            <Step Description="Verify [Pekwachnamaykoskwaskwaypinwanik] appeared in search result." ErrMsg="Unable to find [Pekwachnamaykoskwaskwaypinwanik] in Search Result" SnapShotHyperlink="data\OW-006_2021_10_19_13_36_47_920\OW-006_4.jpg" SnapShotName="OW-006_4" duration="15.309s">Failed</Step>
+            <Step Description="[SEARCH RESULT SCREEN] Verifying search result contain city name." ErrMsg="Unable to find [Pekwachnamaykoskwaskwaypinwanik] in Search Result&#10;">Failed</Step>
+        </Keyword>
+        <Duration value="20.333s"/>
+    </TestScenario>
+    <TestScenario FolderData="OW-007_2021_10_19_13_37_08_300" FolderHyperlink="data\OW-007_2021_10_19_13_37_08_300\" NStep="7" Result="Failed" Title="OW-007: Searching the weather of city">
+        <Keyword Description="[HOME SCREEN] Perform search with given city name.">
+            <Step Description="Navigate to page at https://openweathermap.org/" ErrMsg="" SnapShotHyperlink="data\OW-007_2021_10_19_13_37_08_300\OW-007_1.jpg" SnapShotName="OW-007_1" duration="2.682s">Passed</Step>
+            <Step Description="Set text of [Taumatawhakatangihangakoauauotamateaturipukakapikimaungahoronukupokaiwhenuakitanatahu] to variable [OW.Home.Search.Input]" ErrMsg="" SnapShotHyperlink="data\OW-007_2021_10_19_13_37_08_300\OW-007_2.jpg" SnapShotName="OW-007_2" duration="2.331s">Passed</Step>
+            <Step Description="Waiting object [By.xpath: //*[@id=&quot;forecast_list_ul&quot;]] displayed" ErrMsg="TIMEOUT reached" SnapShotHyperlink="data\OW-007_2021_10_19_13_37_08_300\OW-007_3.jpg" SnapShotName="OW-007_3" duration="15.543s">Failed</Step>
+            <Step Description="Perform search weather in [Taumatawhakatangihangakoauauotamateaturipukakapikimaungahoronukupokaiwhenuakitanatahu]" ErrMsg="Failed to search city with data set" SnapShotHyperlink="data\OW-007_2021_10_19_13_37_08_300\OW-007_4.jpg" SnapShotName="OW-007_4" duration="0.283s">Failed</Step>
+            <Step Description="[HOME SCREEN] Perform search with given city name." ErrMsg="TIMEOUT reached&#10;Failed to search city with data set&#10;">Failed</Step>
+        </Keyword>
+        <Keyword Description="[SEARCH RESULT SCREEN] Verifying search result contain city name.">
+            <Step Description="Verify [Taumatawhakatangihangakoauauotamateaturipukakapikimaungahoronukupokaiwhenuakitanatahu] appeared in search result." ErrMsg="Unable to find [Taumatawhakatangihangakoauauotamateaturipukakapikimaungahoronukupokaiwhenuakitanatahu] in Search Result" SnapShotHyperlink="data\OW-007_2021_10_19_13_37_08_300\OW-007_5.jpg" SnapShotName="OW-007_5" duration="15.333s">Failed</Step>
+            <Step Description="[SEARCH RESULT SCREEN] Verifying search result contain city name." ErrMsg="Unable to find [Taumatawhakatangihangakoauauotamateaturipukakapikimaungahoronukupokaiwhenuakitanatahu] in Search Result&#10;">Failed</Step>
+        </Keyword>
+        <Duration value="36.172s"/>
+    </TestScenario>
+    <TestScenario FolderData="OW-008_2021_10_19_13_37_44_427" FolderHyperlink="data\OW-008_2021_10_19_13_37_44_427\" NStep="6" Result="Failed" Title="OW-008: Searching the weather of city">
+        <Keyword Description="[HOME SCREEN] Perform search with given city name.">
+            <Step Description="Navigate to page at https://openweathermap.org/" ErrMsg="" SnapShotHyperlink="data\OW-008_2021_10_19_13_37_44_427\OW-008_1.jpg" SnapShotName="OW-008_1" duration="4.547s">Passed</Step>
+            <Step Description="Set text of [Commonwealth of Massachusetts] to variable [OW.Home.Search.Input]" ErrMsg="" SnapShotHyperlink="data\OW-008_2021_10_19_13_37_44_427\OW-008_2.jpg" SnapShotName="OW-008_2" duration="2.537s">Passed</Step>
+            <Step Description="Perform search weather in [Commonwealth of Massachusetts]" ErrMsg="" SnapShotHyperlink="data\OW-008_2021_10_19_13_37_44_427\OW-008_3.jpg" SnapShotName="OW-008_3" duration="0.333s">Passed</Step>
+            <Step Description="[HOME SCREEN] Perform search with given city name." ErrMsg="">Passed</Step>
+        </Keyword>
+        <Keyword Description="[SEARCH RESULT SCREEN] Verifying search result contain city name.">
+            <Step Description="Verify [Commonwealth of Massachusetts] appeared in search result." ErrMsg="Unable to find [Commonwealth of Massachusetts] in Search Result" SnapShotHyperlink="data\OW-008_2021_10_19_13_37_44_427\OW-008_4.jpg" SnapShotName="OW-008_4" duration="15.300s">Failed</Step>
+            <Step Description="[SEARCH RESULT SCREEN] Verifying search result contain city name." ErrMsg="Unable to find [Commonwealth of Massachusetts] in Search Result&#10;">Failed</Step>
+        </Keyword>
+        <Duration value="22.717s"/>
+    </TestScenario>
+    <TestScenario FolderData="OW-009_2021_10_19_13_38_07_142" FolderHyperlink="data\OW-009_2021_10_19_13_38_07_142\" NStep="6" Result="Passed" Title="OW-009: Searching the weather of city">
+        <Keyword Description="[HOME SCREEN] Perform search with given city name.">
+            <Step Description="Navigate to page at https://openweathermap.org/" ErrMsg="" SnapShotHyperlink="data\OW-009_2021_10_19_13_38_07_142\OW-009_1.jpg" SnapShotName="OW-009_1" duration="2.255s">Passed</Step>
+            <Step Description="Set text of [Winchester-on-the-Severn] to variable [OW.Home.Search.Input]" ErrMsg="" SnapShotHyperlink="data\OW-009_2021_10_19_13_38_07_142\OW-009_2.jpg" SnapShotName="OW-009_2" duration="2.303s">Passed</Step>
+            <Step Description="Perform search weather in [Winchester-on-the-Severn]" ErrMsg="" SnapShotHyperlink="data\OW-009_2021_10_19_13_38_07_142\OW-009_3.jpg" SnapShotName="OW-009_3" duration="0.355s">Passed</Step>
+            <Step Description="[HOME SCREEN] Perform search with given city name." ErrMsg="">Passed</Step>
+        </Keyword>
+        <Keyword Description="[SEARCH RESULT SCREEN] Verifying search result contain city name.">
+            <Step Description="Verify [Winchester-on-the-Severn] appeared in search result." ErrMsg="" SnapShotHyperlink="data\OW-009_2021_10_19_13_38_07_142\OW-009_4.jpg" SnapShotName="OW-009_4" duration="0.301s">Passed</Step>
+            <Step Description="[SEARCH RESULT SCREEN] Verifying search result contain city name." ErrMsg="">Passed</Step>
+        </Keyword>
+        <Duration value="5.214s"/>
+    </TestScenario>
+    <TestScenario FolderData="OW-010_2021_10_19_13_38_12_356" FolderHyperlink="data\OW-010_2021_10_19_13_38_12_356\" NStep="6" Result="Passed" Title="OW-010: Searching the weather of city">
+        <Keyword Description="[HOME SCREEN] Perform search with given city name.">
+            <Step Description="Navigate to page at https://openweathermap.org/" ErrMsg="" SnapShotHyperlink="data\OW-010_2021_10_19_13_38_12_356\OW-010_1.jpg" SnapShotName="OW-010_1" duration="2.413s">Passed</Step>
+            <Step Description="Set text of [Madrid] to variable [OW.Home.Search.Input]" ErrMsg="" SnapShotHyperlink="data\OW-010_2021_10_19_13_38_12_356\OW-010_2.jpg" SnapShotName="OW-010_2" duration="2.996s">Passed</Step>
+            <Step Description="Perform search weather in [Madrid]" ErrMsg="" SnapShotHyperlink="data\OW-010_2021_10_19_13_38_12_356\OW-010_3.jpg" SnapShotName="OW-010_3" duration="0.347s">Passed</Step>
+            <Step Description="[HOME SCREEN] Perform search with given city name." ErrMsg="">Passed</Step>
+        </Keyword>
+        <Keyword Description="[SEARCH RESULT SCREEN] Verifying search result contain city name.">
+            <Step Description="Verify [Madrid] appeared in search result." ErrMsg="" SnapShotHyperlink="data\OW-010_2021_10_19_13_38_12_356\OW-010_4.jpg" SnapShotName="OW-010_4" duration="0.297s">Passed</Step>
+            <Step Description="[SEARCH RESULT SCREEN] Verifying search result contain city name." ErrMsg="">Passed</Step>
+        </Keyword>
+        <Duration value="6.053s"/>
+    </TestScenario>
+</TestResult>

@@ -1,0 +1,405 @@
+<html>
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<script type="text/javascript" src="jquery.min.js"></script><script type="text/javascript" src="ddtf.js"></script><script type="text/javascript">
+					$(document).ready(function(){
+					$('#summary').ddTableFilter();
+					$('#details').ddTableFilter();
+					});
+				</script>
+<style type="text/css">
+					a:link {
+					color: #8ac007;
+					text-decoration: none;
+					}
+					a:visited {
+					color: #8ac007;
+					}
+					a:hover {
+					color: #215967;
+					text-decoration: underline;
+					}
+					a:active {
+					color: #8ac007;
+					}
+					#header {
+					border-radius: 10px 10px 0 0;
+					padding: 10px;
+					background: #00b050;
+					width: 99%;
+					font-size: 11px;
+					color: white;
+					font-weight: bold;
+					text-align: center;
+					}
+					#dashboard {
+					border-collapse: collapse;
+					border-radius: 10px 10px 0 0;
+					padding: 10px;
+					margin: 10px;
+					min-width: 700px;
+					box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+					text-align: center;
+					font-size: 12px;
+					}
+					#summary {
+					border-collapse:
+					collapse;
+					border-radius: 10px 10px 0 0;
+					padding: 10px;
+					margin: 10px;
+					font-size: 12px;
+					min-width: 700px;
+					box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+					text-align: center;
+					padding: 10px;
+					}
+					#details {
+					border-collapse:
+					collapse;
+					border-radius: 10px 10px 0 0;
+					padding: 10px;
+					margin: 10px;
+					font-size: 12px;
+					min-width: 700px;
+					box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+					padding: 10px;
+					border: thin;
+					}
+				</style>
+</head>
+<body style="font-family: Arial;">
+<div id="header">TEST SUMMARY</div>
+<br style="line-height: 5px;">
+<table id="dashboard" border="1" cellpadding="3" style="border-collapse: collapse;table-layout:fixed;min-width: 700px;">
+<tr bgcolor="#00b050" style="color:white;font-weight: bold;">
+<td style="text-align: center;">Start Time</td><td style="text-align: center;">End Time</td><td style="text-align: center;">Duration</td><td style="text-align: center;"># Pass Tests</td><td style="text-align: center;"># Failed Tests</td><td style="text-align: center;"># Warning Tests</td><td style="text-align: center;">Total Tests</td>
+</tr>
+<tr style="text-align: center;">
+<td>Oct-19 13:36:05 PM</td><td>Oct-19 13:38:19 PM</td><td>0:2:13</td><td style="color:green;font-weight:bold;">7</td><td style="color:red;font-weight:bold;">3</td><td style="color:orange;font-weight:bold;">0</td><td style="font-weight:bold;">10</td>
+</tr>
+</table>
+<br style="line-height: 5px;">
+<table style="border-collapse: collapse; table-layout: fixed; min-width: 700px;" border="1" id="summary">
+<tr style="text-align:center;color:white;" bgcolor="#00b050">
+<th>#</th><th>Test Name</th><th>Steps</th><th>Status</th><th>Folder stores files created by Script</th><th>Duration</th>
+</tr>
+<tr>
+<td>1</td><td><a href="#1">OW-001: Searching the weather of city</a></td><td>6</td><td style="color:green;font-weight:bold;">Passed</td><td><a href="data\OW-001_2021_10_19_13_36_06_678\">OW-001_2021_10_19_13_36_06_678</a></td><td>21.811s</td>
+</tr>
+<tr>
+<td>2</td><td><a href="#2">OW-002: Searching the weather of city</a></td><td>6</td><td style="color:green;font-weight:bold;">Passed</td><td><a href="data\OW-002_2021_10_19_13_36_27_704\">OW-002_2021_10_19_13_36_27_704</a></td><td>5.258s</td>
+</tr>
+<tr>
+<td>3</td><td><a href="#3">OW-003: Searching the weather of city</a></td><td>6</td><td style="color:green;font-weight:bold;">Passed</td><td><a href="data\OW-003_2021_10_19_13_36_32_920\">OW-003_2021_10_19_13_36_32_920</a></td><td>5.206s</td>
+</tr>
+<tr>
+<td>4</td><td><a href="#4">OW-004: Searching the weather of city</a></td><td>6</td><td style="color:green;font-weight:bold;">Passed</td><td><a href="data\OW-004_2021_10_19_13_36_38_106\">OW-004_2021_10_19_13_36_38_106</a></td><td>4.928s</td>
+</tr>
+<tr>
+<td>5</td><td><a href="#5">OW-005: Searching the weather of city</a></td><td>6</td><td style="color:green;font-weight:bold;">Passed</td><td><a href="data\OW-005_2021_10_19_13_36_43_024\">OW-005_2021_10_19_13_36_43_024</a></td><td>4.899s</td>
+</tr>
+<tr>
+<td>6</td><td><a href="#6">OW-006: Searching the weather of city</a></td><td>6</td><td style="color:red;font-weight:bold;">Failed</td><td><a href="data\OW-006_2021_10_19_13_36_47_920\">OW-006_2021_10_19_13_36_47_920</a></td><td>20.333s</td>
+</tr>
+<tr>
+<td>7</td><td><a href="#7">OW-007: Searching the weather of city</a></td><td>7</td><td style="color:red;font-weight:bold;">Failed</td><td><a href="data\OW-007_2021_10_19_13_37_08_300\">OW-007_2021_10_19_13_37_08_300</a></td><td>36.172s</td>
+</tr>
+<tr>
+<td>8</td><td><a href="#8">OW-008: Searching the weather of city</a></td><td>6</td><td style="color:red;font-weight:bold;">Failed</td><td><a href="data\OW-008_2021_10_19_13_37_44_427\">OW-008_2021_10_19_13_37_44_427</a></td><td>22.717s</td>
+</tr>
+<tr>
+<td>9</td><td><a href="#9">OW-009: Searching the weather of city</a></td><td>6</td><td style="color:green;font-weight:bold;">Passed</td><td><a href="data\OW-009_2021_10_19_13_38_07_142\">OW-009_2021_10_19_13_38_07_142</a></td><td>5.214s</td>
+</tr>
+<tr>
+<td>10</td><td><a href="#10">OW-010: Searching the weather of city</a></td><td>6</td><td style="color:green;font-weight:bold;">Passed</td><td><a href="data\OW-010_2021_10_19_13_38_12_356\">OW-010_2021_10_19_13_38_12_356</a></td><td>6.053s</td>
+</tr>
+</table>
+<br>
+<div id="header">DETAIL TEST RESULT</div>
+<br style="line-height: 5px;">
+<table id="details" border="1" cellpadding="2" style="border-collapse: collapse;table-layout:fixed;">
+<tr bgcolor="#00b050" style="color:white;">
+<th style="text-align:left"></th><th style="text-align:left">Step / Action Name</th><th style="text-align:left">Status</th><th style="text-align:left">SnapShot</th><th style="text-align:left">Error Messages / Comments</th><th style="text-align:left">Duration</th>
+</tr>
+<tr bgcolor="#215967" style="color:white;font-weight:bold;">
+<td colspan="4"><a name="1"></a>OW-001: Searching the weather of city</td><td style="text-align:right;border-left: 1px solid #215967"><a href="#" style="color:white;">Scroll To Top</a></td><td></td>
+</tr>
+<tr style="border:0px;">
+<td style="width:20px;border:1px;"></td><td colspan="4" bgcolor="#d8e4bc" style="color:#215967;font-weight:bold;font-size:12px;">[HOME SCREEN] Perform search with given city name.</td><td colspan="4" bgcolor="#d8e4bc" style="text-align:center;color:#215967;font-weight:bold;font-size:12px;"></td>
+</tr>
+<tr>
+<td style="border-top: 1px solid white;border-bottom: 1px solid white;"></td><td style="padding-left: 10px;">Navigate to page at https://openweathermap.org/</td><td style="text-align:center;color:green;">Passed</td><td><a href="data\OW-001_2021_10_19_13_36_06_678\OW-001_1.jpg">OW-001_1</a></td><td style="text-align:center;color:green;"></td><td align="center">18.696s</td>
+</tr>
+<tr>
+<td style="border-top: 1px solid white;border-bottom: 1px solid white;"></td><td style="padding-left: 10px;">Set text of [Ho Chi Minh] to variable [OW.Home.Search.Input]</td><td style="text-align:center;color:green;">Passed</td><td><a href="data\OW-001_2021_10_19_13_36_06_678\OW-001_2.jpg">OW-001_2</a></td><td style="text-align:center;color:green;"></td><td align="center">2.423s</td>
+</tr>
+<tr>
+<td style="border-top: 1px solid white;border-bottom: 1px solid white;"></td><td style="padding-left: 10px;">Perform search weather in [Ho Chi Minh]</td><td style="text-align:center;color:green;">Passed</td><td><a href="data\OW-001_2021_10_19_13_36_06_678\OW-001_3.jpg">OW-001_3</a></td><td style="text-align:center;color:green;"></td><td align="center">0.378s</td>
+</tr>
+<tr>
+<td style="border-top: 1px solid white;border-bottom: 1px solid white;"></td><td style="padding-left: 10px;">[HOME SCREEN] Perform search with given city name.</td><td style="text-align:center;color:green;">Passed</td><td><a href=""></a></td><td style="text-align:center;color:green;"></td><td align="center"></td>
+</tr>
+<tr style="border:0px;">
+<td style="width:20px;border:1px;"></td><td colspan="4" bgcolor="#d8e4bc" style="color:#215967;font-weight:bold;font-size:12px;">[SEARCH RESULT SCREEN] Verifying search result contain city name.</td><td colspan="4" bgcolor="#d8e4bc" style="text-align:center;color:#215967;font-weight:bold;font-size:12px;"></td>
+</tr>
+<tr>
+<td style="border-top: 1px solid white;border-bottom: 1px solid white;"></td><td style="padding-left: 10px;">Verify [Ho Chi Minh] appeared in search result.</td><td style="text-align:center;color:green;">Passed</td><td><a href="data\OW-001_2021_10_19_13_36_06_678\OW-001_4.jpg">OW-001_4</a></td><td style="text-align:center;color:green;"></td><td align="center">0.314s</td>
+</tr>
+<tr>
+<td style="border-top: 1px solid white;border-bottom: 1px solid white;"></td><td style="padding-left: 10px;">[SEARCH RESULT SCREEN] Verifying search result contain city name.</td><td style="text-align:center;color:green;">Passed</td><td><a href=""></a></td><td style="text-align:center;color:green;"></td><td align="center"></td>
+</tr>
+<tr bgcolor="#215967" style="color:white;font-weight:bold;">
+<td colspan="4"><a name="2"></a>OW-002: Searching the weather of city</td><td style="text-align:right;border-left: 1px solid #215967"><a href="#" style="color:white;">Scroll To Top</a></td><td></td>
+</tr>
+<tr style="border:0px;">
+<td style="width:20px;border:1px;"></td><td colspan="4" bgcolor="#d8e4bc" style="color:#215967;font-weight:bold;font-size:12px;">[HOME SCREEN] Perform search with given city name.</td><td colspan="4" bgcolor="#d8e4bc" style="text-align:center;color:#215967;font-weight:bold;font-size:12px;"></td>
+</tr>
+<tr>
+<td style="border-top: 1px solid white;border-bottom: 1px solid white;"></td><td style="padding-left: 10px;">Navigate to page at https://openweathermap.org/</td><td style="text-align:center;color:green;">Passed</td><td><a href="data\OW-002_2021_10_19_13_36_27_704\OW-002_1.jpg">OW-002_1</a></td><td style="text-align:center;color:green;"></td><td align="center">1.877s</td>
+</tr>
+<tr>
+<td style="border-top: 1px solid white;border-bottom: 1px solid white;"></td><td style="padding-left: 10px;">Set text of [Ha Noi] to variable [OW.Home.Search.Input]</td><td style="text-align:center;color:green;">Passed</td><td><a href="data\OW-002_2021_10_19_13_36_27_704\OW-002_2.jpg">OW-002_2</a></td><td style="text-align:center;color:green;"></td><td align="center">2.742s</td>
+</tr>
+<tr>
+<td style="border-top: 1px solid white;border-bottom: 1px solid white;"></td><td style="padding-left: 10px;">Perform search weather in [Ha Noi]</td><td style="text-align:center;color:green;">Passed</td><td><a href="data\OW-002_2021_10_19_13_36_27_704\OW-002_3.jpg">OW-002_3</a></td><td style="text-align:center;color:green;"></td><td align="center">0.344s</td>
+</tr>
+<tr>
+<td style="border-top: 1px solid white;border-bottom: 1px solid white;"></td><td style="padding-left: 10px;">[HOME SCREEN] Perform search with given city name.</td><td style="text-align:center;color:green;">Passed</td><td><a href=""></a></td><td style="text-align:center;color:green;"></td><td align="center"></td>
+</tr>
+<tr style="border:0px;">
+<td style="width:20px;border:1px;"></td><td colspan="4" bgcolor="#d8e4bc" style="color:#215967;font-weight:bold;font-size:12px;">[SEARCH RESULT SCREEN] Verifying search result contain city name.</td><td colspan="4" bgcolor="#d8e4bc" style="text-align:center;color:#215967;font-weight:bold;font-size:12px;"></td>
+</tr>
+<tr>
+<td style="border-top: 1px solid white;border-bottom: 1px solid white;"></td><td style="padding-left: 10px;">Verify [Ha Noi] appeared in search result.</td><td style="text-align:center;color:green;">Passed</td><td><a href="data\OW-002_2021_10_19_13_36_27_704\OW-002_4.jpg">OW-002_4</a></td><td style="text-align:center;color:green;"></td><td align="center">0.295s</td>
+</tr>
+<tr>
+<td style="border-top: 1px solid white;border-bottom: 1px solid white;"></td><td style="padding-left: 10px;">[SEARCH RESULT SCREEN] Verifying search result contain city name.</td><td style="text-align:center;color:green;">Passed</td><td><a href=""></a></td><td style="text-align:center;color:green;"></td><td align="center"></td>
+</tr>
+<tr bgcolor="#215967" style="color:white;font-weight:bold;">
+<td colspan="4"><a name="3"></a>OW-003: Searching the weather of city</td><td style="text-align:right;border-left: 1px solid #215967"><a href="#" style="color:white;">Scroll To Top</a></td><td></td>
+</tr>
+<tr style="border:0px;">
+<td style="width:20px;border:1px;"></td><td colspan="4" bgcolor="#d8e4bc" style="color:#215967;font-weight:bold;font-size:12px;">[HOME SCREEN] Perform search with given city name.</td><td colspan="4" bgcolor="#d8e4bc" style="text-align:center;color:#215967;font-weight:bold;font-size:12px;"></td>
+</tr>
+<tr>
+<td style="border-top: 1px solid white;border-bottom: 1px solid white;"></td><td style="padding-left: 10px;">Navigate to page at https://openweathermap.org/</td><td style="text-align:center;color:green;">Passed</td><td><a href="data\OW-003_2021_10_19_13_36_32_920\OW-003_1.jpg">OW-003_1</a></td><td style="text-align:center;color:green;"></td><td align="center">1.571s</td>
+</tr>
+<tr>
+<td style="border-top: 1px solid white;border-bottom: 1px solid white;"></td><td style="padding-left: 10px;">Set text of [Bac Lieu] to variable [OW.Home.Search.Input]</td><td style="text-align:center;color:green;">Passed</td><td><a href="data\OW-003_2021_10_19_13_36_32_920\OW-003_2.jpg">OW-003_2</a></td><td style="text-align:center;color:green;"></td><td align="center">2.967s</td>
+</tr>
+<tr>
+<td style="border-top: 1px solid white;border-bottom: 1px solid white;"></td><td style="padding-left: 10px;">Perform search weather in [Bac Lieu]</td><td style="text-align:center;color:green;">Passed</td><td><a href="data\OW-003_2021_10_19_13_36_32_920\OW-003_3.jpg">OW-003_3</a></td><td style="text-align:center;color:green;"></td><td align="center">0.364s</td>
+</tr>
+<tr>
+<td style="border-top: 1px solid white;border-bottom: 1px solid white;"></td><td style="padding-left: 10px;">[HOME SCREEN] Perform search with given city name.</td><td style="text-align:center;color:green;">Passed</td><td><a href=""></a></td><td style="text-align:center;color:green;"></td><td align="center"></td>
+</tr>
+<tr style="border:0px;">
+<td style="width:20px;border:1px;"></td><td colspan="4" bgcolor="#d8e4bc" style="color:#215967;font-weight:bold;font-size:12px;">[SEARCH RESULT SCREEN] Verifying search result contain city name.</td><td colspan="4" bgcolor="#d8e4bc" style="text-align:center;color:#215967;font-weight:bold;font-size:12px;"></td>
+</tr>
+<tr>
+<td style="border-top: 1px solid white;border-bottom: 1px solid white;"></td><td style="padding-left: 10px;">Verify [Bac Lieu] appeared in search result.</td><td style="text-align:center;color:green;">Passed</td><td><a href="data\OW-003_2021_10_19_13_36_32_920\OW-003_4.jpg">OW-003_4</a></td><td style="text-align:center;color:green;"></td><td align="center">0.304s</td>
+</tr>
+<tr>
+<td style="border-top: 1px solid white;border-bottom: 1px solid white;"></td><td style="padding-left: 10px;">[SEARCH RESULT SCREEN] Verifying search result contain city name.</td><td style="text-align:center;color:green;">Passed</td><td><a href=""></a></td><td style="text-align:center;color:green;"></td><td align="center"></td>
+</tr>
+<tr bgcolor="#215967" style="color:white;font-weight:bold;">
+<td colspan="4"><a name="4"></a>OW-004: Searching the weather of city</td><td style="text-align:right;border-left: 1px solid #215967"><a href="#" style="color:white;">Scroll To Top</a></td><td></td>
+</tr>
+<tr style="border:0px;">
+<td style="width:20px;border:1px;"></td><td colspan="4" bgcolor="#d8e4bc" style="color:#215967;font-weight:bold;font-size:12px;">[HOME SCREEN] Perform search with given city name.</td><td colspan="4" bgcolor="#d8e4bc" style="text-align:center;color:#215967;font-weight:bold;font-size:12px;"></td>
+</tr>
+<tr>
+<td style="border-top: 1px solid white;border-bottom: 1px solid white;"></td><td style="padding-left: 10px;">Navigate to page at https://openweathermap.org/</td><td style="text-align:center;color:green;">Passed</td><td><a href="data\OW-004_2021_10_19_13_36_38_106\OW-004_1.jpg">OW-004_1</a></td><td style="text-align:center;color:green;"></td><td align="center">1.714s</td>
+</tr>
+<tr>
+<td style="border-top: 1px solid white;border-bottom: 1px solid white;"></td><td style="padding-left: 10px;">Set text of [New York] to variable [OW.Home.Search.Input]</td><td style="text-align:center;color:green;">Passed</td><td><a href="data\OW-004_2021_10_19_13_36_38_106\OW-004_2.jpg">OW-004_2</a></td><td style="text-align:center;color:green;"></td><td align="center">2.501s</td>
+</tr>
+<tr>
+<td style="border-top: 1px solid white;border-bottom: 1px solid white;"></td><td style="padding-left: 10px;">Perform search weather in [New York]</td><td style="text-align:center;color:green;">Passed</td><td><a href="data\OW-004_2021_10_19_13_36_38_106\OW-004_3.jpg">OW-004_3</a></td><td style="text-align:center;color:green;"></td><td align="center">0.402s</td>
+</tr>
+<tr>
+<td style="border-top: 1px solid white;border-bottom: 1px solid white;"></td><td style="padding-left: 10px;">[HOME SCREEN] Perform search with given city name.</td><td style="text-align:center;color:green;">Passed</td><td><a href=""></a></td><td style="text-align:center;color:green;"></td><td align="center"></td>
+</tr>
+<tr style="border:0px;">
+<td style="width:20px;border:1px;"></td><td colspan="4" bgcolor="#d8e4bc" style="color:#215967;font-weight:bold;font-size:12px;">[SEARCH RESULT SCREEN] Verifying search result contain city name.</td><td colspan="4" bgcolor="#d8e4bc" style="text-align:center;color:#215967;font-weight:bold;font-size:12px;"></td>
+</tr>
+<tr>
+<td style="border-top: 1px solid white;border-bottom: 1px solid white;"></td><td style="padding-left: 10px;">Verify [New York] appeared in search result.</td><td style="text-align:center;color:green;">Passed</td><td><a href="data\OW-004_2021_10_19_13_36_38_106\OW-004_4.jpg">OW-004_4</a></td><td style="text-align:center;color:green;"></td><td align="center">0.311s</td>
+</tr>
+<tr>
+<td style="border-top: 1px solid white;border-bottom: 1px solid white;"></td><td style="padding-left: 10px;">[SEARCH RESULT SCREEN] Verifying search result contain city name.</td><td style="text-align:center;color:green;">Passed</td><td><a href=""></a></td><td style="text-align:center;color:green;"></td><td align="center"></td>
+</tr>
+<tr bgcolor="#215967" style="color:white;font-weight:bold;">
+<td colspan="4"><a name="5"></a>OW-005: Searching the weather of city</td><td style="text-align:right;border-left: 1px solid #215967"><a href="#" style="color:white;">Scroll To Top</a></td><td></td>
+</tr>
+<tr style="border:0px;">
+<td style="width:20px;border:1px;"></td><td colspan="4" bgcolor="#d8e4bc" style="color:#215967;font-weight:bold;font-size:12px;">[HOME SCREEN] Perform search with given city name.</td><td colspan="4" bgcolor="#d8e4bc" style="text-align:center;color:#215967;font-weight:bold;font-size:12px;"></td>
+</tr>
+<tr>
+<td style="border-top: 1px solid white;border-bottom: 1px solid white;"></td><td style="padding-left: 10px;">Navigate to page at https://openweathermap.org/</td><td style="text-align:center;color:green;">Passed</td><td><a href="data\OW-005_2021_10_19_13_36_43_024\OW-005_1.jpg">OW-005_1</a></td><td style="text-align:center;color:green;"></td><td align="center">1.660s</td>
+</tr>
+<tr>
+<td style="border-top: 1px solid white;border-bottom: 1px solid white;"></td><td style="padding-left: 10px;">Set text of [London] to variable [OW.Home.Search.Input]</td><td style="text-align:center;color:green;">Passed</td><td><a href="data\OW-005_2021_10_19_13_36_43_024\OW-005_2.jpg">OW-005_2</a></td><td style="text-align:center;color:green;"></td><td align="center">2.564s</td>
+</tr>
+<tr>
+<td style="border-top: 1px solid white;border-bottom: 1px solid white;"></td><td style="padding-left: 10px;">Perform search weather in [London]</td><td style="text-align:center;color:green;">Passed</td><td><a href="data\OW-005_2021_10_19_13_36_43_024\OW-005_3.jpg">OW-005_3</a></td><td style="text-align:center;color:green;"></td><td align="center">0.376s</td>
+</tr>
+<tr>
+<td style="border-top: 1px solid white;border-bottom: 1px solid white;"></td><td style="padding-left: 10px;">[HOME SCREEN] Perform search with given city name.</td><td style="text-align:center;color:green;">Passed</td><td><a href=""></a></td><td style="text-align:center;color:green;"></td><td align="center"></td>
+</tr>
+<tr style="border:0px;">
+<td style="width:20px;border:1px;"></td><td colspan="4" bgcolor="#d8e4bc" style="color:#215967;font-weight:bold;font-size:12px;">[SEARCH RESULT SCREEN] Verifying search result contain city name.</td><td colspan="4" bgcolor="#d8e4bc" style="text-align:center;color:#215967;font-weight:bold;font-size:12px;"></td>
+</tr>
+<tr>
+<td style="border-top: 1px solid white;border-bottom: 1px solid white;"></td><td style="padding-left: 10px;">Verify [London] appeared in search result.</td><td style="text-align:center;color:green;">Passed</td><td><a href="data\OW-005_2021_10_19_13_36_43_024\OW-005_4.jpg">OW-005_4</a></td><td style="text-align:center;color:green;"></td><td align="center">0.299s</td>
+</tr>
+<tr>
+<td style="border-top: 1px solid white;border-bottom: 1px solid white;"></td><td style="padding-left: 10px;">[SEARCH RESULT SCREEN] Verifying search result contain city name.</td><td style="text-align:center;color:green;">Passed</td><td><a href=""></a></td><td style="text-align:center;color:green;"></td><td align="center"></td>
+</tr>
+<tr bgcolor="#215967" style="color:white;font-weight:bold;">
+<td colspan="4"><a name="6"></a>OW-006: Searching the weather of city</td><td style="text-align:right;border-left: 1px solid #215967"><a href="#" style="color:white;">Scroll To Top</a></td><td></td>
+</tr>
+<tr style="border:0px;">
+<td style="width:20px;border:1px;"></td><td colspan="4" bgcolor="#d8e4bc" style="color:#215967;font-weight:bold;font-size:12px;">[HOME SCREEN] Perform search with given city name.</td><td colspan="4" bgcolor="#d8e4bc" style="text-align:center;color:#215967;font-weight:bold;font-size:12px;"></td>
+</tr>
+<tr>
+<td style="border-top: 1px solid white;border-bottom: 1px solid white;"></td><td style="padding-left: 10px;">Navigate to page at https://openweathermap.org/</td><td style="text-align:center;color:green;">Passed</td><td><a href="data\OW-006_2021_10_19_13_36_47_920\OW-006_1.jpg">OW-006_1</a></td><td style="text-align:center;color:green;"></td><td align="center">2.203s</td>
+</tr>
+<tr>
+<td style="border-top: 1px solid white;border-bottom: 1px solid white;"></td><td style="padding-left: 10px;">Set text of [Pekwachnamaykoskwaskwaypinwanik] to variable [OW.Home.Search.Input]</td><td style="text-align:center;color:green;">Passed</td><td><a href="data\OW-006_2021_10_19_13_36_47_920\OW-006_2.jpg">OW-006_2</a></td><td style="text-align:center;color:green;"></td><td align="center">2.458s</td>
+</tr>
+<tr>
+<td style="border-top: 1px solid white;border-bottom: 1px solid white;"></td><td style="padding-left: 10px;">Perform search weather in [Pekwachnamaykoskwaskwaypinwanik]</td><td style="text-align:center;color:green;">Passed</td><td><a href="data\OW-006_2021_10_19_13_36_47_920\OW-006_3.jpg">OW-006_3</a></td><td style="text-align:center;color:green;"></td><td align="center">0.363s</td>
+</tr>
+<tr>
+<td style="border-top: 1px solid white;border-bottom: 1px solid white;"></td><td style="padding-left: 10px;">[HOME SCREEN] Perform search with given city name.</td><td style="text-align:center;color:green;">Passed</td><td><a href=""></a></td><td style="text-align:center;color:green;"></td><td align="center"></td>
+</tr>
+<tr style="border:0px;">
+<td style="width:20px;border:1px;"></td><td colspan="4" bgcolor="#d8e4bc" style="color:#215967;font-weight:bold;font-size:12px;">[SEARCH RESULT SCREEN] Verifying search result contain city name.</td><td colspan="4" bgcolor="#d8e4bc" style="text-align:center;color:#215967;font-weight:bold;font-size:12px;"></td>
+</tr>
+<tr>
+<td style="border-top: 1px solid white;border-bottom: 1px solid white;"></td><td style="padding-left: 10px;">Verify [Pekwachnamaykoskwaskwaypinwanik] appeared in search result.</td><td style="text-align:center;color:red;">Failed</td><td><a href="data\OW-006_2021_10_19_13_36_47_920\OW-006_4.jpg">OW-006_4</a></td><td style="text-align:center;color:red;">Unable to find [Pekwachnamaykoskwaskwaypinwanik] in Search Result</td><td align="center">15.309s</td>
+</tr>
+<tr>
+<td style="border-top: 1px solid white;border-bottom: 1px solid white;"></td><td style="padding-left: 10px;">[SEARCH RESULT SCREEN] Verifying search result contain city name.</td><td style="text-align:center;color:red;">Failed</td><td><a href=""></a></td><td style="text-align:center;color:red;">Unable to find [Pekwachnamaykoskwaskwaypinwanik] in Search Result
+</td><td align="center"></td>
+</tr>
+<tr bgcolor="#215967" style="color:white;font-weight:bold;">
+<td colspan="4"><a name="7"></a>OW-007: Searching the weather of city</td><td style="text-align:right;border-left: 1px solid #215967"><a href="#" style="color:white;">Scroll To Top</a></td><td></td>
+</tr>
+<tr style="border:0px;">
+<td style="width:20px;border:1px;"></td><td colspan="4" bgcolor="#d8e4bc" style="color:#215967;font-weight:bold;font-size:12px;">[HOME SCREEN] Perform search with given city name.</td><td colspan="4" bgcolor="#d8e4bc" style="text-align:center;color:#215967;font-weight:bold;font-size:12px;"></td>
+</tr>
+<tr>
+<td style="border-top: 1px solid white;border-bottom: 1px solid white;"></td><td style="padding-left: 10px;">Navigate to page at https://openweathermap.org/</td><td style="text-align:center;color:green;">Passed</td><td><a href="data\OW-007_2021_10_19_13_37_08_300\OW-007_1.jpg">OW-007_1</a></td><td style="text-align:center;color:green;"></td><td align="center">2.682s</td>
+</tr>
+<tr>
+<td style="border-top: 1px solid white;border-bottom: 1px solid white;"></td><td style="padding-left: 10px;">Set text of [Taumatawhakatangihangakoauauotamateaturipukakapikimaungahoronukupokaiwhenuakitanatahu] to variable [OW.Home.Search.Input]</td><td style="text-align:center;color:green;">Passed</td><td><a href="data\OW-007_2021_10_19_13_37_08_300\OW-007_2.jpg">OW-007_2</a></td><td style="text-align:center;color:green;"></td><td align="center">2.331s</td>
+</tr>
+<tr>
+<td style="border-top: 1px solid white;border-bottom: 1px solid white;"></td><td style="padding-left: 10px;">Waiting object [By.xpath: //*[@id="forecast_list_ul"]] displayed</td><td style="text-align:center;color:red;">Failed</td><td><a href="data\OW-007_2021_10_19_13_37_08_300\OW-007_3.jpg">OW-007_3</a></td><td style="text-align:center;color:red;">TIMEOUT reached</td><td align="center">15.543s</td>
+</tr>
+<tr>
+<td style="border-top: 1px solid white;border-bottom: 1px solid white;"></td><td style="padding-left: 10px;">Perform search weather in [Taumatawhakatangihangakoauauotamateaturipukakapikimaungahoronukupokaiwhenuakitanatahu]</td><td style="text-align:center;color:red;">Failed</td><td><a href="data\OW-007_2021_10_19_13_37_08_300\OW-007_4.jpg">OW-007_4</a></td><td style="text-align:center;color:red;">Failed to search city with data set</td><td align="center">0.283s</td>
+</tr>
+<tr>
+<td style="border-top: 1px solid white;border-bottom: 1px solid white;"></td><td style="padding-left: 10px;">[HOME SCREEN] Perform search with given city name.</td><td style="text-align:center;color:red;">Failed</td><td><a href=""></a></td><td style="text-align:center;color:red;">TIMEOUT reached
+Failed to search city with data set
+</td><td align="center"></td>
+</tr>
+<tr style="border:0px;">
+<td style="width:20px;border:1px;"></td><td colspan="4" bgcolor="#d8e4bc" style="color:#215967;font-weight:bold;font-size:12px;">[SEARCH RESULT SCREEN] Verifying search result contain city name.</td><td colspan="4" bgcolor="#d8e4bc" style="text-align:center;color:#215967;font-weight:bold;font-size:12px;"></td>
+</tr>
+<tr>
+<td style="border-top: 1px solid white;border-bottom: 1px solid white;"></td><td style="padding-left: 10px;">Verify [Taumatawhakatangihangakoauauotamateaturipukakapikimaungahoronukupokaiwhenuakitanatahu] appeared in search result.</td><td style="text-align:center;color:red;">Failed</td><td><a href="data\OW-007_2021_10_19_13_37_08_300\OW-007_5.jpg">OW-007_5</a></td><td style="text-align:center;color:red;">Unable to find [Taumatawhakatangihangakoauauotamateaturipukakapikimaungahoronukupokaiwhenuakitanatahu] in Search Result</td><td align="center">15.333s</td>
+</tr>
+<tr>
+<td style="border-top: 1px solid white;border-bottom: 1px solid white;"></td><td style="padding-left: 10px;">[SEARCH RESULT SCREEN] Verifying search result contain city name.</td><td style="text-align:center;color:red;">Failed</td><td><a href=""></a></td><td style="text-align:center;color:red;">Unable to find [Taumatawhakatangihangakoauauotamateaturipukakapikimaungahoronukupokaiwhenuakitanatahu] in Search Result
+</td><td align="center"></td>
+</tr>
+<tr bgcolor="#215967" style="color:white;font-weight:bold;">
+<td colspan="4"><a name="8"></a>OW-008: Searching the weather of city</td><td style="text-align:right;border-left: 1px solid #215967"><a href="#" style="color:white;">Scroll To Top</a></td><td></td>
+</tr>
+<tr style="border:0px;">
+<td style="width:20px;border:1px;"></td><td colspan="4" bgcolor="#d8e4bc" style="color:#215967;font-weight:bold;font-size:12px;">[HOME SCREEN] Perform search with given city name.</td><td colspan="4" bgcolor="#d8e4bc" style="text-align:center;color:#215967;font-weight:bold;font-size:12px;"></td>
+</tr>
+<tr>
+<td style="border-top: 1px solid white;border-bottom: 1px solid white;"></td><td style="padding-left: 10px;">Navigate to page at https://openweathermap.org/</td><td style="text-align:center;color:green;">Passed</td><td><a href="data\OW-008_2021_10_19_13_37_44_427\OW-008_1.jpg">OW-008_1</a></td><td style="text-align:center;color:green;"></td><td align="center">4.547s</td>
+</tr>
+<tr>
+<td style="border-top: 1px solid white;border-bottom: 1px solid white;"></td><td style="padding-left: 10px;">Set text of [Commonwealth of Massachusetts] to variable [OW.Home.Search.Input]</td><td style="text-align:center;color:green;">Passed</td><td><a href="data\OW-008_2021_10_19_13_37_44_427\OW-008_2.jpg">OW-008_2</a></td><td style="text-align:center;color:green;"></td><td align="center">2.537s</td>
+</tr>
+<tr>
+<td style="border-top: 1px solid white;border-bottom: 1px solid white;"></td><td style="padding-left: 10px;">Perform search weather in [Commonwealth of Massachusetts]</td><td style="text-align:center;color:green;">Passed</td><td><a href="data\OW-008_2021_10_19_13_37_44_427\OW-008_3.jpg">OW-008_3</a></td><td style="text-align:center;color:green;"></td><td align="center">0.333s</td>
+</tr>
+<tr>
+<td style="border-top: 1px solid white;border-bottom: 1px solid white;"></td><td style="padding-left: 10px;">[HOME SCREEN] Perform search with given city name.</td><td style="text-align:center;color:green;">Passed</td><td><a href=""></a></td><td style="text-align:center;color:green;"></td><td align="center"></td>
+</tr>
+<tr style="border:0px;">
+<td style="width:20px;border:1px;"></td><td colspan="4" bgcolor="#d8e4bc" style="color:#215967;font-weight:bold;font-size:12px;">[SEARCH RESULT SCREEN] Verifying search result contain city name.</td><td colspan="4" bgcolor="#d8e4bc" style="text-align:center;color:#215967;font-weight:bold;font-size:12px;"></td>
+</tr>
+<tr>
+<td style="border-top: 1px solid white;border-bottom: 1px solid white;"></td><td style="padding-left: 10px;">Verify [Commonwealth of Massachusetts] appeared in search result.</td><td style="text-align:center;color:red;">Failed</td><td><a href="data\OW-008_2021_10_19_13_37_44_427\OW-008_4.jpg">OW-008_4</a></td><td style="text-align:center;color:red;">Unable to find [Commonwealth of Massachusetts] in Search Result</td><td align="center">15.300s</td>
+</tr>
+<tr>
+<td style="border-top: 1px solid white;border-bottom: 1px solid white;"></td><td style="padding-left: 10px;">[SEARCH RESULT SCREEN] Verifying search result contain city name.</td><td style="text-align:center;color:red;">Failed</td><td><a href=""></a></td><td style="text-align:center;color:red;">Unable to find [Commonwealth of Massachusetts] in Search Result
+</td><td align="center"></td>
+</tr>
+<tr bgcolor="#215967" style="color:white;font-weight:bold;">
+<td colspan="4"><a name="9"></a>OW-009: Searching the weather of city</td><td style="text-align:right;border-left: 1px solid #215967"><a href="#" style="color:white;">Scroll To Top</a></td><td></td>
+</tr>
+<tr style="border:0px;">
+<td style="width:20px;border:1px;"></td><td colspan="4" bgcolor="#d8e4bc" style="color:#215967;font-weight:bold;font-size:12px;">[HOME SCREEN] Perform search with given city name.</td><td colspan="4" bgcolor="#d8e4bc" style="text-align:center;color:#215967;font-weight:bold;font-size:12px;"></td>
+</tr>
+<tr>
+<td style="border-top: 1px solid white;border-bottom: 1px solid white;"></td><td style="padding-left: 10px;">Navigate to page at https://openweathermap.org/</td><td style="text-align:center;color:green;">Passed</td><td><a href="data\OW-009_2021_10_19_13_38_07_142\OW-009_1.jpg">OW-009_1</a></td><td style="text-align:center;color:green;"></td><td align="center">2.255s</td>
+</tr>
+<tr>
+<td style="border-top: 1px solid white;border-bottom: 1px solid white;"></td><td style="padding-left: 10px;">Set text of [Winchester-on-the-Severn] to variable [OW.Home.Search.Input]</td><td style="text-align:center;color:green;">Passed</td><td><a href="data\OW-009_2021_10_19_13_38_07_142\OW-009_2.jpg">OW-009_2</a></td><td style="text-align:center;color:green;"></td><td align="center">2.303s</td>
+</tr>
+<tr>
+<td style="border-top: 1px solid white;border-bottom: 1px solid white;"></td><td style="padding-left: 10px;">Perform search weather in [Winchester-on-the-Severn]</td><td style="text-align:center;color:green;">Passed</td><td><a href="data\OW-009_2021_10_19_13_38_07_142\OW-009_3.jpg">OW-009_3</a></td><td style="text-align:center;color:green;"></td><td align="center">0.355s</td>
+</tr>
+<tr>
+<td style="border-top: 1px solid white;border-bottom: 1px solid white;"></td><td style="padding-left: 10px;">[HOME SCREEN] Perform search with given city name.</td><td style="text-align:center;color:green;">Passed</td><td><a href=""></a></td><td style="text-align:center;color:green;"></td><td align="center"></td>
+</tr>
+<tr style="border:0px;">
+<td style="width:20px;border:1px;"></td><td colspan="4" bgcolor="#d8e4bc" style="color:#215967;font-weight:bold;font-size:12px;">[SEARCH RESULT SCREEN] Verifying search result contain city name.</td><td colspan="4" bgcolor="#d8e4bc" style="text-align:center;color:#215967;font-weight:bold;font-size:12px;"></td>
+</tr>
+<tr>
+<td style="border-top: 1px solid white;border-bottom: 1px solid white;"></td><td style="padding-left: 10px;">Verify [Winchester-on-the-Severn] appeared in search result.</td><td style="text-align:center;color:green;">Passed</td><td><a href="data\OW-009_2021_10_19_13_38_07_142\OW-009_4.jpg">OW-009_4</a></td><td style="text-align:center;color:green;"></td><td align="center">0.301s</td>
+</tr>
+<tr>
+<td style="border-top: 1px solid white;border-bottom: 1px solid white;"></td><td style="padding-left: 10px;">[SEARCH RESULT SCREEN] Verifying search result contain city name.</td><td style="text-align:center;color:green;">Passed</td><td><a href=""></a></td><td style="text-align:center;color:green;"></td><td align="center"></td>
+</tr>
+<tr bgcolor="#215967" style="color:white;font-weight:bold;">
+<td colspan="4"><a name="10"></a>OW-010: Searching the weather of city</td><td style="text-align:right;border-left: 1px solid #215967"><a href="#" style="color:white;">Scroll To Top</a></td><td></td>
+</tr>
+<tr style="border:0px;">
+<td style="width:20px;border:1px;"></td><td colspan="4" bgcolor="#d8e4bc" style="color:#215967;font-weight:bold;font-size:12px;">[HOME SCREEN] Perform search with given city name.</td><td colspan="4" bgcolor="#d8e4bc" style="text-align:center;color:#215967;font-weight:bold;font-size:12px;"></td>
+</tr>
+<tr>
+<td style="border-top: 1px solid white;border-bottom: 1px solid white;"></td><td style="padding-left: 10px;">Navigate to page at https://openweathermap.org/</td><td style="text-align:center;color:green;">Passed</td><td><a href="data\OW-010_2021_10_19_13_38_12_356\OW-010_1.jpg">OW-010_1</a></td><td style="text-align:center;color:green;"></td><td align="center">2.413s</td>
+</tr>
+<tr>
+<td style="border-top: 1px solid white;border-bottom: 1px solid white;"></td><td style="padding-left: 10px;">Set text of [Madrid] to variable [OW.Home.Search.Input]</td><td style="text-align:center;color:green;">Passed</td><td><a href="data\OW-010_2021_10_19_13_38_12_356\OW-010_2.jpg">OW-010_2</a></td><td style="text-align:center;color:green;"></td><td align="center">2.996s</td>
+</tr>
+<tr>
+<td style="border-top: 1px solid white;border-bottom: 1px solid white;"></td><td style="padding-left: 10px;">Perform search weather in [Madrid]</td><td style="text-align:center;color:green;">Passed</td><td><a href="data\OW-010_2021_10_19_13_38_12_356\OW-010_3.jpg">OW-010_3</a></td><td style="text-align:center;color:green;"></td><td align="center">0.347s</td>
+</tr>
+<tr>
+<td style="border-top: 1px solid white;border-bottom: 1px solid white;"></td><td style="padding-left: 10px;">[HOME SCREEN] Perform search with given city name.</td><td style="text-align:center;color:green;">Passed</td><td><a href=""></a></td><td style="text-align:center;color:green;"></td><td align="center"></td>
+</tr>
+<tr style="border:0px;">
+<td style="width:20px;border:1px;"></td><td colspan="4" bgcolor="#d8e4bc" style="color:#215967;font-weight:bold;font-size:12px;">[SEARCH RESULT SCREEN] Verifying search result contain city name.</td><td colspan="4" bgcolor="#d8e4bc" style="text-align:center;color:#215967;font-weight:bold;font-size:12px;"></td>
+</tr>
+<tr>
+<td style="border-top: 1px solid white;border-bottom: 1px solid white;"></td><td style="padding-left: 10px;">Verify [Madrid] appeared in search result.</td><td style="text-align:center;color:green;">Passed</td><td><a href="data\OW-010_2021_10_19_13_38_12_356\OW-010_4.jpg">OW-010_4</a></td><td style="text-align:center;color:green;"></td><td align="center">0.297s</td>
+</tr>
+<tr>
+<td style="border-top: 1px solid white;border-bottom: 1px solid white;"></td><td style="padding-left: 10px;">[SEARCH RESULT SCREEN] Verifying search result contain city name.</td><td style="text-align:center;color:green;">Passed</td><td><a href=""></a></td><td style="text-align:center;color:green;"></td><td align="center"></td>
+</tr>
+</table>
+</body>
+</html>
